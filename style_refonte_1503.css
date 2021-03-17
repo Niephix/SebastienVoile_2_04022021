@@ -1,0 +1,451 @@
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Header*/
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/*Navigation*/
+nav ul
+{
+    list-style: none;
+    display: flex;
+}
+
+nav li 
+{
+    padding-top: 50px;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: #0065fc;
+    margin: 30px;
+}
+
+nav li:hover
+{
+    border-top: 2px solid #0065fc
+}
+
+h2
+{
+    font-size: 18px;
+    padding-left: 45px;
+    padding-top: 30px;
+}
+
+/*Logo*/
+.logo
+{
+    text-align: left;
+    padding: 50px;
+}
+
+#s1
+{
+   margin-left: 50px;
+   margin-bottom: 30px;
+}
+
+/*Recherhe*/
+#recherche
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.marqueur_1
+{
+    border-radius: 20px 0 0 20px;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    padding: 16px;
+}
+
+input
+{
+    border: 2px solid #f2f2f2;
+    font-size: 15px;
+    padding: 14px;
+}
+
+.marqueur_2
+{
+    border-radius: 0 20px 20px 0;
+    background-color: #0065fc;
+    color: white;
+    border: 1px solid #f2f2f2; 
+    font-size: 15px;
+    padding: 15px;
+}
+
+.title_f
+{
+    font-size: 18px; 
+    font-weight: bold;
+}
+
+.icone1
+{
+    color:#0065fc;
+    border: 2px solid #f2f2ff;
+    background-color: #deebff;
+    padding: 14px;
+    margin-right: 10px;
+    border-radius: 100%; 
+}
+
+.icone2
+{
+    color:#0065fc;
+    border: 2px solid #f2f2ff;
+    background-color: #deebff;
+    padding: 14px 17px 14px 17px;
+    margin-right: 10px;
+    border-radius: 100%; 
+}
+
+.i1
+{
+    margin: 30px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #f2f2f2;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 13px 13px 13px 0;
+    overflow: hidden;
+}
+
+.i1:hover
+{
+    background-color: #0065fc;
+    color: white;
+}
+
+/*Reuslt*/
+.information
+{
+    color: #0065fc;
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    margin: 14px;
+    border-radius: 100%;
+    border: 3px solid #f2f2ff;
+    text-align: center;
+}
+
+/*Accomodations'beginning*/
+.s2
+{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#ah1
+{
+    width: 70%;
+    background-color: #f2f2f2;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.image
+{
+    width: 240px;
+    height: 120px;
+    object-fit: cover;
+    border-radius:20px 20px 0 0; 
+    border: 3px solid white;
+}
+
+.c1
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.c2
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.vignette
+{
+    width: 245px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.image
+{
+    width: 240px;
+    height: 120px;
+    object-fit: cover;
+    border-radius:20px 20px 0 0; 
+    border: 3px solid white;
+}
+
+.ap
+{
+    padding-top: 30px;
+    padding-left: 45px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.legende
+{
+    padding-left:12px; 
+    font-weight: bold;
+}
+
+/*Accomodations'ending*/
+
+/*Populars'beginning*/
+aside
+{
+    width: 30%;
+    margin-left: 50px;
+    background-color: #f2f2f2;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.p1
+{
+    display: flex;
+    flex-flow: column wrap;
+    width: 300px;
+    height: 135px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    margin: 30px auto 30px auto;
+    font-size: 16px;
+}
+
+.image1
+{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+    border: 3px solid white;
+}
+
+.graphique
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.etoiles1
+{
+    padding-left: 12px;
+    color:#0065fc;
+}
+
+.far
+{
+    color: gray;
+}
+
+.nuitee
+{
+    padding-left: 12px;
+}
+
+.nuitee2
+{
+    padding-top: 5px;
+}
+
+.etoiles2
+{
+    padding-top: 35px;
+    color: #0065fc;
+}
+
+.legendebis
+{
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+/*Populars' ending*/
+
+/*Activities' beginning*/
+.aa1
+{
+    display: flex;
+    justify-content: space-around;
+}
+/*Bloc gauche*/
+.bloc_gauche
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 1.5em;
+    width: 50%;
+}
+
+.vp
+{
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 7px 7px 10px #f2f2f2;
+    border: 1px solid white;
+}
+
+.fpif
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.fp
+{
+    height: 240px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 7px 7px 10px #f2f2f2;
+    border: 1px solid white;
+}
+
+.if
+{
+    height: 172px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 7px 7px 10px #f2f2f2;
+    border: 1px solid white;
+}
+
+/*Bloc droit*/
+.bloc_droit
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 1.5em;
+    width: 50%;
+}
+
+.ndgpl
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.ndg
+{
+    height: 202px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 7px 7px 10px #f2f2f2;
+    border: 1px solid white;
+}
+
+.pl
+{
+    height: 202px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 7px 7px 10px #f2f2f2;
+    border: 1px solid white;
+}
+
+.cal
+{
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 7px 7px 10px #f2f2f2;
+    border: 1px solid white;
+}
+
+.image2
+{
+    width: 307px;
+    height: 390px; 
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.image3
+{
+    width: 307px;
+    height: 181px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.image4
+{
+    width: 307px;
+    height: 108px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.image5
+{
+    width: 307px;
+    height: 136px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+h3
+{
+   font-size: 16px; 
+   font-weight: bold;
+   padding-left: 15px;
+}
+/*Activities' ending*/
+
+/*Footer's beginning*/
+footer
+{
+    padding-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+}
+
+footer li
+{
+    list-style: none;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.ap2
+{
+    margin-left: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
