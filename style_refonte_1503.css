@@ -123,7 +123,6 @@ input
     font-size: 15px;
     font-weight: bold;
     padding: 13px 13px 13px 0;
-    overflow: hidden;
 }
 
 .i1:hover
@@ -138,7 +137,7 @@ input
     color: #0065fc;
     font-size: 12px;
     padding: 5px 10px 5px 10px;
-    margin: 14px;
+    margin-right: 14px;
     border-radius: 100%;
     border: 3px solid #f2f2ff;
     text-align: center;
@@ -186,14 +185,14 @@ input
 
 .vignette
 {
-    width: 245px;
+    min-width: 245px;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
 }
 
 .image
 {
-    width: 240px;
+    min-width: 240px;
     height: 120px;
     object-fit: cover;
     border-radius:20px 20px 0 0; 
@@ -213,7 +212,6 @@ input
     padding-left:12px; 
     font-weight: bold;
 }
-
 /*Accomodations'ending*/
 
 /*Populars'beginning*/
@@ -223,6 +221,7 @@ aside
     margin-left: 50px;
     background-color: #f2f2f2;
     border-radius: 30px 30px 30px 30px;
+    flex-basis: auto;
 }
 
 .p1
