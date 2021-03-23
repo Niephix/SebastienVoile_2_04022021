@@ -94,10 +94,10 @@ input
 .icone1
 {
     color:#0065fc;
-    border: 2px solid #f2f2ff;
+    border: 3px solid #f2f2ff;
     background-color: #deebff;
-    padding: 0.9em;
-    margin-right: 0.6em;
+    padding: 0.8em;
+    margin-right: 0.5em;
     border-radius: 100%; 
 }
 
@@ -106,7 +106,7 @@ input
     color:#0065fc;
     border: 2px solid #f2f2ff;
     background-color: #deebff;
-    padding: 0.8em 1em 0.8em 1em;
+    padding: 0.9em 1.1em 0.9em 1.1em;
     margin-right: 10px;
     border-radius: 100%; 
 }
@@ -120,6 +120,7 @@ input
     font-size: 15px;
     font-weight: bold;
     padding: 0.9em 0.9em 0.9em 0;
+    overflow: auto;
 }
 
 .i1:hover
