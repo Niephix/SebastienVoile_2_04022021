@@ -20,14 +20,14 @@ nav ul
 
 nav li 
 {
-    padding-top: 50px;
+    padding-top: 3em;
 }
 
 nav a
 {
     text-decoration: none;
     color: #0065fc;
-    margin: 30px;
+    margin: 2em;
 }
 
 nav li:hover
@@ -38,29 +38,27 @@ nav li:hover
 h2
 {
     font-size: 18px;
-    padding-left: 50px;
-    padding-top: 30px;
+    padding-left: 3em;
+    padding-top: 2em;
 }
 
 /*Logo*/
 .logo
 {
     text-align: left;
-    padding: 50px;
+    padding: 3em;
 }
 
 .s1
 {
-   margin-left: 50px;
-   margin-bottom: 30px;
+   margin-left: 3em;
+   margin-bottom: 2em;
 }
 
 /*Recherhe*/
 #recherche
 {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
 }
 
 .marqueur_1
@@ -68,14 +66,14 @@ h2
     border-radius: 20px 0 0 20px;
     background-color: #f2f2f2;
     font-size: 15px;
-    padding: 16px;
+    padding: 1.1em;
 }
 
 input
 {
     border: 2px solid #f2f2f2;
     font-size: 15px;
-    padding: 14px;
+    padding: 1em;
 }
 
 .marqueur_2
@@ -85,7 +83,7 @@ input
     color: white;
     border: 1px solid #f2f2f2; 
     font-size: 15px;
-    padding: 15px;
+    padding: 1.1em;
 }
 
 .title_f
@@ -99,8 +97,8 @@ input
     color:#0065fc;
     border: 2px solid #f2f2ff;
     background-color: #deebff;
-    padding: 13px;
-    margin-right: 10px;
+    padding: 0.8em;
+    margin-right: 0.6em;
     border-radius: 100%; 
 }
 
@@ -109,20 +107,20 @@ input
     color:#0065fc;
     border: 2px solid #f2f2ff;
     background-color: #deebff;
-    padding: 13px 17px 13px 17px;
-    margin-right: 10px;
+    padding: 0.8em 1em 0.8em 1em;
+    margin-right: 0.6em;
     border-radius: 100%; 
 }
 
 .i1
 {
-    margin: 30px;
+    margin: 2em;
     border-radius: 20px 20px 20px 20px;
     border: 1px solid #f2f2f2;
     background-color: white;
     font-size: 15px;
     font-weight: bold;
-    padding: 13px 13px 13px 0;
+    padding: 0.8em 0.8em 0.8em 0;
 }
 
 .i1:hover
@@ -136,19 +134,17 @@ input
 {
     color: #0065fc;
     font-size: 12px;
-    padding: 5px 10px 5px 10px;
+    padding: 0.6em 1em 0.6em 1em;
     margin-right: 14px;
     border-radius: 100%;
-    border: 3px solid #f2f2ff;
-    text-align: center;
+    border: 2px solid #f2f2ff;
 }
 
 /*Accomodations'beginning*/
 .s2
 {
     display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0 3em 0 3em;
 }
 
 #ah1
@@ -202,14 +198,14 @@ input
 
 .ap
 {
-    padding: 20px 0 30px 50px;
+    padding: 1.3em 0 1.8em 3em;
     font-size: 16px;
     font-weight: bold;
 }
 
 .legende
 {
-    padding-left:12px; 
+    padding-left: 0.7em; 
     font-weight: bold;
 }
 /*Accomodations'ending*/
@@ -218,10 +214,9 @@ input
 aside
 {
     width: 30%;
-    margin-left: 50px;
+    margin-left: 3em;
     background-color: #f2f2f2;
     border-radius: 30px 30px 30px 30px;
-    flex-basis: auto;
 }
 
 .p1
@@ -232,7 +227,7 @@ aside
     height: 135px;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
-    margin: 30px auto 30px auto;
+    margin: 2em auto 2em auto;
     font-size: 16px;
 }
 
@@ -249,14 +244,14 @@ aside
 {
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 3em;
     font-weight: bold;
     font-size: 18px;
 }
 
 .etoiles1
 {
-    padding-left: 12px;
+    padding-left: 0.7em;
     color:#0065fc;
 }
 
@@ -267,25 +262,25 @@ aside
 
 .nuitee
 {
-    padding: 5px;
-    padding-left: 12px;
+    padding: 0.3em;
+    padding-left: 0.7em;
 }
 
 .nuitee2
 {
-    padding-top: 5px;
+    padding-top: 0.3em;
 }
 
 .etoiles2
 {
-    padding-top: 35px;
+    padding-top: 2.2em;
     color: #0065fc;
 }
 
 .legendebis
 {
     font-weight: bold;
-    padding-top: 5px;
+    padding-top: 0.3em;
 }
 
 /*Populars' ending*/
@@ -295,14 +290,6 @@ aside
 {
     display: flex;
     justify-content: space-around;
-}
-/*Bloc gauche*/
-.bloc_gauche
-{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding: 15px 0 35px 0;
 }
 
 .vp
@@ -337,15 +324,6 @@ aside
     background-color: white;
     box-shadow: 7px 7px 10px #f2f2f2;
     border: 1px solid white;
-}
-
-/*Bloc droit*/
-.bloc_droit
-{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    padding: 15px 0 35px 0;
 }
 
 .ndgpl
