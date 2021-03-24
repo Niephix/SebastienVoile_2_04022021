@@ -134,7 +134,7 @@ input
     color: #0065fc;
     font-size: 12px;
     padding: 0.3em 0.7em 0.3em 0.7em;
-    margin-right: 14px;
+    margin-right: 0.8em;
     border-radius: 100%;
     border: 2px solid #f2f2ff;
 }
@@ -149,7 +149,7 @@ input
 
 #ah1
 {
-    width: 70%;
+    max-width: 70%;
     background-color: #f2f2f2;
     border-radius: 30px 30px 30px 30px;
 }
@@ -163,42 +163,37 @@ input
     border: 3px solid white;
 }
 
-.c1
+.presentation
 {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
-    padding: 1.5em;
-}
-
-.c2
-{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    padding: 1.5em;
+    justify-content: space-around; 
+    margin: 1.5em;
+    max-width: 900px;
 }
 
 .vignette
 {
-    width: 245px;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     border: 2px solid white;
+    padding-bottom: 0.5em;
+    margin-bottom: 1.5em;
+    box-shadow: 7px 7px 10px #f2f2f2;
 }
 
 .image
 {
-    min-width: 240px;
+    width: 240px;
     height: 120px;
     object-fit: cover;
     border-radius:20px 20px 0 0; 
-    border: 2px solid white;
+    border: 1px solid white;
 }
 
 .ap
 {
-    padding: 1.2em 0 2em 3em;
+    padding: 0 0 2em 3em;
     font-size: 16px;
     font-weight: bold;
 }
@@ -237,7 +232,7 @@ aside
     height: 130px;
     object-fit: cover;
     border-radius: 20px 0 0 20px;
-    border: 3px solid white;
+    border: 2px solid white;
 }
 
 .graphique
@@ -290,7 +285,7 @@ aside
 {
     display: flex;
     justify-content: space-around;
-    padding: 0 1em 2em 0.6em;
+    padding: 1em 1em 2em 0.6em;
 }
 
 .vp
@@ -298,32 +293,27 @@ aside
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     box-shadow: 7px 7px 10px #f2f2f2;
-    border: 1px solid white;
 }
 
 .fpif
 {
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .fp
 {
-    height: 240px;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 7px 7px 10px #f2f2f2;
-    border: 1px solid white;
 }
 
 .if
 {
-    height: 172px;
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     box-shadow: 7px 7px 10px #f2f2f2;
-    border: 1px solid white;
 }
 
 .ndgpl
@@ -339,16 +329,13 @@ aside
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     box-shadow: 7px 7px 10px #f2f2f2;
-    border: 1px solid white;
 }
 
 .pl
 {
-    height: 202px;
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     box-shadow: 7px 7px 10px #f2f2f2;
-    border: 1px solid white;
 }
 
 .cal
@@ -356,7 +343,6 @@ aside
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     box-shadow: 7px 7px 10px #f2f2f2;
-    border: 1px solid white;
 }
 
 .image2
@@ -365,6 +351,7 @@ aside
     height: 390px; 
     object-fit: cover;
     border-radius: 20px 20px 0 0;
+    border: 1px solid white;
 }
 
 .image3
@@ -373,6 +360,7 @@ aside
     height: 181px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
+    border: 1px solid white;
 }
 
 .image4
@@ -381,7 +369,7 @@ aside
     height: 108px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-
+    border: 1px solid white;
 }
 
 .image5
@@ -390,6 +378,7 @@ aside
     height: 136px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
+    border: 1px solid white;
 }
 
 h3
