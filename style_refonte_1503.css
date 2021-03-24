@@ -27,7 +27,7 @@ nav a
 {
     text-decoration: none;
     color: #0065fc;
-    margin: 2em;
+    margin: 1.8em;
 }
 
 nav li:hover
@@ -38,8 +38,7 @@ nav li:hover
 h2
 {
     font-size: 18px;
-    padding-left: 3em;
-    padding-top: 2em;
+    padding: 1.8em 0 0 3em;
 }
 
 /*Logo*/
@@ -52,7 +51,7 @@ h2
 .s1
 {
    margin-left: 3em;
-   margin-bottom: 2em;
+   margin-bottom: 1.8em;
 }
 
 /*Recherhe*/
@@ -66,14 +65,14 @@ h2
     border-radius: 20px 0 0 20px;
     background-color: #f2f2f2;
     font-size: 15px;
-    padding: 1.1em;
+    padding: 1em;
 }
 
 input
 {
     border: 2px solid #f2f2f2;
     font-size: 15px;
-    padding: 1em;
+    padding: 0.8em;
 }
 
 .marqueur_2
@@ -83,7 +82,7 @@ input
     color: white;
     border: 1px solid #f2f2f2; 
     font-size: 15px;
-    padding: 1.1em;
+    padding: 1em;
 }
 
 .title_f
@@ -98,7 +97,7 @@ input
     border: 2px solid #f2f2ff;
     background-color: #deebff;
     padding: 0.8em;
-    margin-right: 0.6em;
+    margin-right: 0.5em;
     border-radius: 100%; 
 }
 
@@ -107,8 +106,8 @@ input
     color:#0065fc;
     border: 2px solid #f2f2ff;
     background-color: #deebff;
-    padding: 0.8em 1em 0.8em 1em;
-    margin-right: 0.6em;
+    padding: 0.9em 1.1em 0.9em 1.1em;
+    margin-right: 10px;
     border-radius: 100%; 
 }
 
@@ -120,7 +119,7 @@ input
     background-color: white;
     font-size: 15px;
     font-weight: bold;
-    padding: 0.8em 0.8em 0.8em 0;
+    padding: 0.9em 0.9em 0.9em 0;
 }
 
 .i1:hover
@@ -134,7 +133,7 @@ input
 {
     color: #0065fc;
     font-size: 12px;
-    padding: 0.6em 1em 0.6em 1em;
+    padding: 0.3em 0.7em 0.3em 0.7em;
     margin-right: 14px;
     border-radius: 100%;
     border: 2px solid #f2f2ff;
@@ -144,7 +143,7 @@ input
 .s2
 {
     display: flex;
-    margin: 0 3em 0 3em;
+    padding: 0 3em 0 3em;
 }
 
 #ah1
@@ -168,7 +167,7 @@ input
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    padding: 1em;
+    padding: 1.5em;
 }
 
 .c2
@@ -176,7 +175,7 @@ input
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    padding: 1em;
+    padding: 1.5em;
 }
 
 .vignette
@@ -198,14 +197,14 @@ input
 
 .ap
 {
-    padding: 1.3em 0 1.8em 3em;
+    padding: 1.2em 0 2em 3em;
     font-size: 16px;
     font-weight: bold;
 }
 
 .legende
 {
-    padding-left: 0.7em; 
+    padding-left:0.7em; 
     font-weight: bold;
 }
 /*Accomodations'ending*/
@@ -244,7 +243,7 @@ aside
 {
     display: flex;
     justify-content: space-around;
-    margin-top: 3em;
+    padding-top: 3em;
     font-weight: bold;
     font-size: 18px;
 }
@@ -263,7 +262,7 @@ aside
 .nuitee
 {
     padding: 0.3em;
-    padding-left: 0.7em;
+    padding-left: 12px;
 }
 
 .nuitee2
@@ -290,6 +289,7 @@ aside
 {
     display: flex;
     justify-content: space-around;
+    padding: 0 1em 2em 0.6em;
 }
 
 .vp
@@ -305,7 +305,6 @@ aside
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-    padding-left: 30px;
 }
 
 .fp
@@ -331,7 +330,6 @@ aside
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-    padding-left: 30px;
 }
 
 .ndg
@@ -397,14 +395,14 @@ h3
 {
    font-size: 16px; 
    font-weight: bold;
-   padding-left: 15px;
+   padding-left: 1em;
 }
 /*Activities' ending*/
 
 /*Footer's beginning*/
 footer
 {
-    padding-top: 30px;
+    padding-top: 2em;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -417,12 +415,12 @@ footer li
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
-    margin: 10px;
+    margin: 0.6em;
 }
 
 .ap2
 {
-    margin-left: 50px;
+    margin-left: 3em;
     font-size: 16px;
     font-weight: bold;
 }
