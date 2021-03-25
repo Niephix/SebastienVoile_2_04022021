@@ -143,8 +143,6 @@ input
 .s2
 {
     display: flex;
-    padding-left: 3em;
-    padding-right: 3em;
 }
 
 #ah1
@@ -152,6 +150,7 @@ input
     max-width: 70%;
     background-color: #f2f2f2;
     border-radius: 30px 30px 30px 30px;
+    margin-left: 3em;
 }
 
 .image
@@ -209,7 +208,7 @@ input
 aside
 {
     width: 30%;
-    margin-left: 3em;
+    margin: 0 3em 0 3em;
     background-color: #f2f2f2;
     border-radius: 30px 30px 30px 30px;
 }
@@ -224,6 +223,7 @@ aside
     border-radius: 20px 20px 20px 20px;
     margin: 2em auto 2em auto;
     font-size: 16px;
+    box-shadow: 7px 7px 10px #f2f2f2;
 }
 
 .image1
@@ -307,6 +307,7 @@ aside
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 7px 7px 10px #f2f2f2;
+    margin-bottom: 3em;
 }
 
 .if
@@ -325,7 +326,6 @@ aside
 
 .ndg
 {
-    height: 202px;
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     box-shadow: 7px 7px 10px #f2f2f2;
