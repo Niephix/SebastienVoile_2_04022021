@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style_refonte_1503.css">
-    <link rel="stylesheet" media="all and (min-width: 700px) and (max-width: 1350px" href="style_css_resolution_moyenne.css">
+    <link rel="stylesheet" media="all and (min-width: 700px) and (max-width: 1350px)" href="style_css_resolution_moyenne.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/13299e9a17.js" crossorigin="anonymous"></script>
@@ -14,12 +14,12 @@
 <body>
     <div id="main">
         <header>
-            <div class="logo"><img src="Reservia.svg" alt="logo reservia" /></div>
+            <div class="logo"> <a href="#"><img src="Reservia.svg" alt="logo reservia" /></a></div>
             <nav>
                 <ul>
                     <li><a href="#logements">Hébergements</a></li>
                     <li><a href="#visites">Activités</a></li>
-                    <li><a href="#">S'inscrire</a></li>
+                    <li><a href="#"> <strong>S'inscrire</strong></a></li>
                 </ul>
             </nav>
         </header>
@@ -30,7 +30,7 @@
             <p>En plein centre ville ou en pleine nature</p>
             <div id="recherche">
                 <span class="marqueur_1"><i class="fas fa-map-marker-alt"></i></span>
-                <input type="search" placeholder=" Marseille, France" />
+                <input type="search" placeholder=" Marseille, France"/>
                 <button class="marqueur_2">Rechercher</button>
             </div>
             <span>
@@ -193,7 +193,7 @@
         <!--Accomodations' ending-->
 
         <!--Activities'beginning-->
-        <section>
+        <section class="s3">
             <h2 id="visites">Activités à Marseille</h2>
 
             <div class="aa1">
@@ -203,8 +203,8 @@
                                 class="image2"></a>
                         <h3>Vieux port</h3>
                     </div>
-
-                    <div class="fpif">
+                    
+                    <div>
                         <div class="fp">
                             <a href="#"><img src="images/activites/4_small/s_fp.jpg" alt="photo du fort de pomègues"
                                     class="image3"></a>
@@ -224,7 +224,7 @@
                         <h3>Parc National des Calanques</h3>
                     </div>
 
-                    <div class="ndgpl">
+                    <div>
                         <div class="ndg">
                             <a href="#"><img src="images/activites/4_small/s_ndg.jpg" alt="photo notre dame de la garde"
                                     class="image5"></a>
@@ -244,9 +244,10 @@
 
         <!--Footer-->
         <footer>
-            <div>
-                <div class="ap2">A propos</div>
 
+            <div>
+                <h3 class="title_ap">A propos</h3>
+                   
                 <ul>
                     <li>Fonctionnement du site</li>
                     <li>Conditions générales de vente</li>
@@ -255,7 +256,7 @@
             </div>
 
             <div>
-                <div class="ap2">Nos hébergements</div>
+                <h3 class="title_ap">Nos hébergements</h3>
                 <ul>
                     <li>Charte qualité</li>
                     <li>Soumettre votre hôtel</li>
@@ -263,7 +264,7 @@
             </div>
 
             <div>
-                <div class="ap2">Assistance</div>
+                <h3 class="title_ap">Assistance</h3>
                 <ul>
                     <li>Centre d'aide</li>
                     <li>Nous contacter</li>

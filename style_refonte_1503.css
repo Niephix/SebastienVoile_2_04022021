@@ -26,20 +26,33 @@ nav li
 nav a
 {
     text-decoration: none;
-    color: #0065fc;
+    color: black;
     margin: 1.8em;
+}
+
+nav a:hover
+{
+    color: #0065fc;
 }
 
 nav li:hover
 {
-    border-top: 2px solid #0065fc
+    border-top: 2px solid #0065fc;
 }
 
-h2
+h1
+{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+/*h2
 {
     font-size: 18px;
     padding: 1.8em 0 0 3em;
-}
+}*/
+
 
 /*Logo*/
 .logo
@@ -64,15 +77,17 @@ h2
 {
     border-radius: 20px 0 0 20px;
     background-color: #f2f2f2;
-    font-size: 15px;
-    padding: 1em;
+    font-size: 18px;
+    padding: 0.8em;
 }
 
 input
 {
     border: 2px solid #f2f2f2;
     font-size: 15px;
-    padding: 0.8em;
+    padding: 1em;
+    font-weight: bold;
+    color: black;
 }
 
 .marqueur_2
@@ -94,9 +109,8 @@ input
 .icone1
 {
     color:#0065fc;
-    border: 2px solid #f2f2ff;
     background-color: #deebff;
-    padding: 0.9em;
+    padding: 1em;
     margin-right: 0.5em;
     border-radius: 100%; 
 }
@@ -104,7 +118,6 @@ input
 .icone2
 {
     color:#0065fc;
-    border: 2px solid #f2f2ff;
     background-color: #deebff;
     padding: 0.9em 1.1em 0.9em 1.1em;
     margin-right: 10px;
@@ -147,19 +160,9 @@ input
 
 #ah1
 {
-    max-width: 70%;
     background-color: #f2f2f2;
     border-radius: 30px 30px 30px 30px;
     margin-left: 3em;
-}
-
-.image
-{
-    width: 240px;
-    height: 120px;
-    object-fit: cover;
-    border-radius:20px 20px 0 0; 
-    border: 3px solid white;
 }
 
 .presentation
@@ -167,8 +170,7 @@ input
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around; 
-    margin: 1.5em;
-    max-width: 900px;
+    padding: 1em;
 }
 
 .vignette
@@ -176,15 +178,14 @@ input
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     border: 2px solid white;
-    padding-bottom: 0.5em;
     margin-bottom: 1.5em;
     box-shadow: 7px 7px 10px #f2f2f2;
 }
 
 .image
 {
-    width: 240px;
-    height: 120px;
+    width: 270px;
+    height: 150px;
     object-fit: cover;
     border-radius:20px 20px 0 0; 
     border: 1px solid white;
@@ -207,8 +208,8 @@ input
 /*Populars'beginning*/
 aside
 {
-    width: 30%;
-    margin: 0 3em 0 3em;
+    margin: auto 3em auto 3em;
+    padding: 0em 1.2em 0 1.2em;
     background-color: #f2f2f2;
     border-radius: 30px 30px 30px 30px;
 }
@@ -217,19 +218,19 @@ aside
 {
     display: flex;
     flex-flow: column wrap;
-    width: 300px;
-    height: 135px;
+    width: 350px;
+    height: 150px;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     margin: 2em auto 2em auto;
     font-size: 16px;
-    box-shadow: 7px 7px 10px #f2f2f2;
+    box-shadow: 10px 10px 15px #f2f2f2;
 }
 
 .image1
 {
-    width: 130px;
-    height: 130px;
+    width: 140px;
+    height: 145px;
     object-fit: cover;
     border-radius: 20px 0 0 20px;
     border: 2px solid white;
@@ -238,7 +239,7 @@ aside
 .graphique
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 3em;
     font-weight: bold;
     font-size: 18px;
@@ -246,7 +247,7 @@ aside
 
 .etoiles1
 {
-    padding-left: 0.7em;
+    padding-left: 0.8em;
     color:#0065fc;
 }
 
@@ -284,10 +285,11 @@ aside
 .aa1
 {
     display: flex;
-    justify-content: space-around;
-    padding: 1em 1em 2em 0.6em;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 3em;
 }
-
+    
 .vp
 {
     border-radius: 20px 20px 20px 20px;
@@ -295,19 +297,11 @@ aside
     box-shadow: 7px 7px 10px #f2f2f2;
 }
 
-.fpif
-{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-}
-
 .fp
 {
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 7px 7px 10px #f2f2f2;
-    margin-bottom: 3em;
 }
 
 .if
@@ -315,13 +309,6 @@ aside
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     box-shadow: 7px 7px 10px #f2f2f2;
-}
-
-.ndgpl
-{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
 }
 
 .ndg
@@ -347,38 +334,34 @@ aside
 
 .image2
 {
-    width: 307px;
-    height: 390px; 
+    width: 310px;
+    height: 500px; 
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-    border: 1px solid white;
 }
 
 .image3
 {
-    width: 307px;
-    height: 181px;
+    width: 310px;
+    height: 240px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-    border: 1px solid white;
 }
 
 .image4
 {
-    width: 307px;
-    height: 108px;
+    width: 310px;
+    height: 205px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-    border: 1px solid white;
 }
 
 .image5
 {
-    width: 307px;
-    height: 136px;
+    width: 310px;
+    height: 223px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-    border: 1px solid white;
 }
 
 h3
@@ -392,26 +375,19 @@ h3
 /*Footer's beginning*/
 footer
 {
-    padding-top: 2em;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #f2f2f2;
 }
 
 footer li
 {
     list-style: none;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: flex-start;
     margin: 0.6em;
 }
 
-.ap2
+.title_ap
 {
-    margin-left: 3em;
-    font-size: 16px;
-    font-weight: bold;
+    padding-left: 3em;
 }
-
