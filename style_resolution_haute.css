@@ -1,0 +1,9 @@
+@media screen and (max-width: 1640px)
+{
+    #main
+    {
+        width: auto;
+        margin: auto;
+    }
+
+}
