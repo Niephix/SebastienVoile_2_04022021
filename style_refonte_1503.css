@@ -1,0 +1,441 @@
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Header*/
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 3em;
+}
+
+/*Navigation*/
+nav ul
+{
+    list-style: none;
+    display: flex;
+    margin-right: 3em;
+}
+
+nav li 
+{
+    padding-top: 3em;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+    margin: 1.8em;
+}
+
+nav a:hover
+{
+    color: #0065fc;
+}
+
+nav li:hover
+{
+    border-top: 2px solid #0065fc;
+}
+
+h1
+{
+    font-size: 20px;
+}
+
+/*Logo*/
+.s1
+{
+    margin-left: 3em;
+}
+.logo
+{
+    padding-top: 3em;
+    text-align: left;
+}
+
+/*Begin's search*/
+#recherche
+{
+    display: flex;
+    align-items: center;
+}
+
+.marqueur_1
+{
+    border-radius: 20px 0 0 20px;
+    background-color: #f2f2f2;
+    font-size: 18px;
+    padding: 0.9em;
+}
+
+input
+{
+    border: 2px solid #f2f2f2;
+    font-size: 15px;
+    padding: 1em;
+    font-weight: bold;
+    color: black;
+}
+
+.marqueur_2
+{
+    border-radius: 0 20px 20px 0;
+    background-color: #0065fc;
+    color: white;
+    border: 1px solid #f2f2f2; 
+    font-size: 15px;
+    padding: 1em;
+}
+
+.marqueur_2:hover
+{
+    cursor: pointer;
+}
+/*End's search*/
+
+/*Filters'beginning*/
+.filters
+{
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.title_f
+{
+    font-size: 18px; 
+    font-weight: bold;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.icone1
+{
+    color:#0065fc;
+    background-color: #deebff;
+    padding: 0.9em;
+    border-radius: 100%;
+    margin: 0 0.7em 0 -0.5em;
+}
+
+.icone2
+{
+    color:#0065fc;
+    background-color: #deebff;
+    padding: 0.9em 1.1em 0.9em 1.1em;
+    border-radius: 100%;
+    margin: 0 0.7em 0 -0.5em;
+}
+
+.i1
+{
+    margin: 1em;
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid #f2f2f2;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0.8em 1em 0.8em 0;
+}
+
+.i1:hover
+{
+    background-color: #0065fc;
+    color: white;
+    cursor: pointer;
+}
+/*Filters'Ending*/
+
+/*Reuslt*/
+.information
+{
+    color: #0065fc;
+    font-size: 13px;
+    padding: 0.8em 1.1em 0.8em 1.1em;
+    margin: 2em 0.8em 1em 0;
+    border-radius: 100%;
+    border: 2px solid #f2f2ff;
+    text-align: center;
+}
+
+/*Accomodations'beginning*/
+.s2
+{
+    display: flex;
+    margin: 2em 0 0 3em;
+}
+
+#logements
+{
+    margin-left: 3em;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#ah1
+{
+    background-color: #f2f2f2;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.presentation
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.vignette
+{
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    box-shadow: 10px 10px 5px #f2f2f2;
+}
+
+.image
+{
+    width: 270px;
+    height: 150px;
+    object-fit: cover;
+    border-radius:20px 20px 0 0; 
+    border: 2px solid white;
+}
+
+.ap
+{
+    padding: 1.5em 3em;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ap:hover
+{
+    cursor: pointer;
+}
+
+.legende
+{
+    padding-left:0.7em; 
+    font-weight: bold;
+}
+/*Accomodations'ending*/
+
+/*Populars'beginning*/
+aside
+{
+    margin: auto 3em auto 3em;
+    padding: 0em 1.2em 0 1.2em;
+    background-color: #f2f2f2;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.p1
+{
+    display: flex;
+    flex-flow: column wrap;
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    margin: 2em auto 2em auto;
+    font-size: 16px;
+    box-shadow: 10px 10px 5px #f2f2f2;
+}
+
+.image1
+{
+    width: 140px;
+    height: 145px;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+    border: 2px solid white;
+}
+
+.graphique
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3em;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.etoiles1
+{
+    padding-left: 0.8em;
+    color:#0065fc;
+}
+
+.far
+{
+    color: gray;
+}
+
+.nuitee
+{
+    padding: 0.3em;
+    padding-left: 12px;
+}
+
+.nuitee2
+{
+    padding-top: 0.3em;
+}
+
+.etoiles2
+{
+    padding-top: 2.2em;
+    color: #0065fc;
+}
+
+.legendebis
+{
+    font-weight: bold;
+    padding-top: 0.3em;
+}
+
+/*Populars' ending*/
+
+/*Activities' beginning*/
+.s3
+{
+    padding: 3em;
+}
+
+#visites
+{
+    font-size: 18px;
+}
+
+.aa1
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+    
+.vp
+{
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 9px 9px 4px #f2f2f2;
+    height: 550px;
+    padding-bottom: 0.9em;
+}
+
+.fp
+{
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 10px 10px 5px #f2f2f2;
+    padding-bottom: 0.1em;
+    margin-bottom: 1.5em;
+}
+
+.if
+{
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 10px 10px 5px #f2f2f2;
+    padding-bottom: 0.1em;
+}
+
+.ndg
+{
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 10px 10px 5px #f2f2f2;
+    padding-bottom: 0.1em;
+    margin-bottom: 1em;
+}
+
+.pl
+{
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 10px 10px 5px #f2f2f2;
+    padding-bottom: 0.1em;
+}
+
+.cal
+{
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 10px 10px 5px #f2f2f2;
+    height: 550px;
+    padding-bottom: 0.9em;
+}
+
+.image2
+{
+    width: 310px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.image3
+{
+    width: 310px;
+    height: 243px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.image4
+{
+    width: 310px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.image5
+{
+    width: 310px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+h3
+{
+    font-size: 18px;
+    font-weight: 900;
+    padding-left: 0.6em;
+}
+/*Activities' ending*/
+
+/*Footer's beginning*/
+footer
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #f2f2f2;
+    padding-right: 3em;
+}
+
+footer li
+{
+    list-style: none;
+    margin: 0.6em;
+}
+
+.title_ap
+{
+    padding-left: 2.8em;
+}
