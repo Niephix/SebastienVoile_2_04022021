@@ -9,7 +9,7 @@ header
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-left: 3em;
+    padding: 0 3em 0 3em;
 }
 
 /*Navigation*/
@@ -47,17 +47,18 @@ h1
 }
 
 /*Logo*/
-.s1
+#s1
 {
-    margin-left: 3em;
+    padding: 0 3em 0 3em;
 }
+
 .logo
 {
     padding-top: 3em;
 }
 
 /*Begin's search*/
-#recherche
+.recherche1
 {
     display: flex;
     align-items: center;
@@ -94,21 +95,35 @@ input
 {
     cursor: pointer;
 }
+
+.recherche2 
+{
+    display: none;
+}
 /*End's search*/
 
 /*Filters'beginning*/
-.filters
+#filters
 {
     display: flex;
+    flex-flow: row wrap;
     align-items: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
 }
+
 
 .title_f
 {
     font-size: 18px; 
     font-weight: bold;
+    padding-top: 1em;
+}
+
+.options_f
+{
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 1em;
+    padding-left: 1em;
 }
 
 a
@@ -122,7 +137,7 @@ a
     background-color: #deebff;
     padding: 0.9em;
     border-radius: 100%;
-    margin: 0 0.7em 0 -0.5em;
+    margin: 0 0.7em 0 -1em;
 }
 
 .icone2
@@ -134,7 +149,7 @@ a
     margin: 0 0.7em 0 -0.5em;
 }
 
-.i1
+.i1, .i2, .i3, .i4
 {
     margin: 1em;
     border-radius: 20px 20px 20px 20px;
@@ -154,22 +169,36 @@ a
 /*Filters'Ending*/
 
 /*Reuslt*/
+
+.results_info
+{
+    display: flex;
+    align-items: center;
+}
+
 .information
 {
     color: #0065fc;
     font-size: 13px;
     padding: 0.8em 1.1em 0.8em 1.1em;
-    margin: 2em 0.8em 1em 0;
+    margin-right: 0.6em;
     border-radius: 100%;
     border: 2px solid #f2f2ff;
-    text-align: center;
+    font-weight: 900;
 }
 
+.result
+{
+    font-size: 16px;  
+    margin-right: 2em;
+}
 /*Accomodations'beginning*/
 .s2
 {
     display: flex;
-    margin: 2em 0 0 3em;
+    padding-top: 1em;
+    padding-left: 3em;
+    padding: 1em 0 0 3em;
 }
 
 #logements
@@ -315,6 +344,7 @@ aside
 #visites
 {
     font-size: 18px;
+    padding-bottom: 1em;
 }
 
 .aa1
