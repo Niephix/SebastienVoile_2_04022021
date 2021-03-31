@@ -146,10 +146,10 @@ a
     background-color: #deebff;
     padding: 0.9em 1.1em 0.9em 1.1em;
     border-radius: 100%;
-    margin: 0 0.7em 0 -0.5em;
+    margin: 0 0.7em 0 -1em;
 }
 
-.i1, .i2, .i3, .i4
+.i1, .i3, .i2, .i4
 {
     margin: 1em;
     border-radius: 20px 20px 20px 20px;
@@ -160,7 +160,7 @@ a
     padding: 0.8em 1em 0.8em 0;
 }
 
-.i1:hover
+.i1:hover, .i2:hover, .i3:hover, .i4:hover
 {
     background-color: #0065fc;
     color: white;
@@ -192,18 +192,18 @@ a
     font-size: 16px;  
     margin-right: 2em;
 }
+/*Results'ending*/
+
 /*Accomodations'beginning*/
 .s2
 {
     display: flex;
-    padding-top: 1em;
-    padding-left: 3em;
-    padding: 1em 0 0 3em;
+    margin: 2em 0 0 3em
 }
 
 #logements
 {
-    margin-left: 3em;
+    padding-left: 1em;
     font-size: 18px;
     font-weight: bold;
 }
@@ -212,13 +212,14 @@ a
 {
     background-color: #f2f2f2;
     border-radius: 30px 30px 30px 30px;
+    padding: 1em 2em 0 2em;
 }
 
 .presentation
 {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-content: center;
 }
 
@@ -227,7 +228,7 @@ a
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     padding-bottom: 0.5em;
-    margin-bottom: 1em;
+    margin-bottom: 2.5em;
     box-shadow: 10px 10px 10px #f2f2f2;
 }
 
@@ -242,7 +243,7 @@ a
 
 .ap
 {
-    padding: 1.5em 3em;
+    padding-left: 1em;
     font-size: 16px;
     font-weight: bold;
 }
@@ -263,7 +264,7 @@ a
 aside
 {
     margin: auto 3em auto 3em;
-    padding: 0em 1.2em 0 1.2em;
+    padding: 0 1.2em 0 1.2em;
     background-color: #f2f2f2;
     border-radius: 30px 30px 30px 30px;
 }
@@ -278,7 +279,7 @@ aside
     border-radius: 20px 20px 20px 20px;
     margin: 2em auto 2em auto;
     font-size: 16px;
-    box-shadow: 10px 10px 5px #f2f2f2;
+    box-shadow: 0 0 16px #f2f2f2;
 }
 
 .image1
@@ -452,9 +453,8 @@ footer
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-content: center;
-    background-color: #f2f2f2;
-    padding-right: 3em;
+    background-color: #f2f2f2; 
+    /*padding-right: 20em;*/
 }
 
 footer li
@@ -463,7 +463,11 @@ footer li
     margin: 0.6em;
 }
 
-.title_ap
+footer ul
 {
     padding-left: 2.8em;
+}
+.title_ap
+{
+    padding-left: 3em;
 }
