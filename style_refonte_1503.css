@@ -1,6 +1,7 @@
 body
 {
     font-family: 'Raleway', sans-serif;
+    margin: auto;
 }
 
 /*Header*/
@@ -12,7 +13,8 @@ header
     padding: 0 3em 0 3em;
 }
 
-/*Navigation*/
+
+/*Navigation's beginning*/
 nav ul
 {
     list-style: none;
@@ -41,12 +43,28 @@ nav li:hover
     border-top: 2px solid #0065fc;
 }
 
+.sign-up
+{
+    padding-top: 3em;
+    background-color: unset;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-up:hover
+{
+    border-top: 2px solid #0065fc;
+}
+/*Navigation's ending*/
+
 h1
 {
     font-size: 20px;
 }
 
-/*Logo*/
+/*Beginning's top*/
 #s1
 {
     padding: 0 3em 0 3em;
@@ -107,7 +125,7 @@ input
 {
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 
@@ -169,7 +187,6 @@ a
 /*Filters'Ending*/
 
 /*Reuslt*/
-
 .results_info
 {
     display: flex;
@@ -193,6 +210,8 @@ a
     margin-right: 2em;
 }
 /*Results'ending*/
+
+/*Top's Ending*/
 
 /*Accomodations'beginning*/
 .s2
@@ -229,7 +248,7 @@ a
     border-radius: 20px 20px 20px 20px;
     padding-bottom: 0.5em;
     margin-bottom: 2.5em;
-    box-shadow: 10px 10px 10px #f2f2f2;
+    box-shadow: 0 0 16px #f2f2f2;
 }
 
 .image
@@ -243,7 +262,7 @@ a
 
 .ap
 {
-    padding-left: 1em;
+    padding: 0 0 2.5em 1em;
     font-size: 16px;
     font-weight: bold;
 }
@@ -295,7 +314,7 @@ aside
 {
     display: flex;
     justify-content: space-between;
-    padding-top: 3em;
+    padding-top: 1.8em;
     font-weight: bold;
     font-size: 18px;
 }
@@ -346,6 +365,7 @@ aside
 {
     font-size: 18px;
     padding-bottom: 1em;
+    /*padding-left: 0.5em;*/
 }
 
 .aa1
@@ -359,7 +379,7 @@ aside
 {
     border-radius: 20px 20px 20px 20px;
     background-color: white;
-    box-shadow: 9px 9px 4px #f2f2f2;
+    box-shadow: 0 0 16px #f2f2f2;
     height: 550px;
     padding-bottom: 0.9em;
 }
@@ -368,7 +388,7 @@ aside
 {
     background-color: white;
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 10px 10px 5px #f2f2f2;
+    box-shadow: 0 0 16px #f2f2f2;
     padding-bottom: 0.1em;
     margin-bottom: 1.5em;
 }
@@ -377,7 +397,7 @@ aside
 {
     border-radius: 20px 20px 20px 20px;
     background-color: white;
-    box-shadow: 10px 10px 5px #f2f2f2;
+    box-shadow: 0 0 16px #f2f2f2;
     padding-bottom: 0.1em;
 }
 
@@ -385,7 +405,7 @@ aside
 {
     border-radius: 20px 20px 20px 20px;
     background-color: white;
-    box-shadow: 10px 10px 5px #f2f2f2;
+    box-shadow: 0 0 16px #f2f2f2;
     padding-bottom: 0.1em;
     margin-bottom: 1em;
 }
@@ -394,7 +414,7 @@ aside
 {
     border-radius: 20px 20px 20px 20px;
     background-color: white;
-    box-shadow: 10px 10px 5px #f2f2f2;
+    box-shadow: 0 0 16px #f2f2f2;
     padding-bottom: 0.1em;
 }
 
@@ -402,7 +422,7 @@ aside
 {
     border-radius: 20px 20px 20px 20px;
     background-color: white;
-    box-shadow: 10px 10px 5px #f2f2f2;
+    box-shadow: 0 0 16px #f2f2f2;
     height: 550px;
     padding-bottom: 0.9em;
 }
@@ -441,7 +461,7 @@ aside
 
 h3
 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 900;
     padding-left: 0.6em;
 }
@@ -454,7 +474,12 @@ footer
     flex-flow: row wrap;
     justify-content: space-between;
     background-color: #f2f2f2; 
-    /*padding-right: 20em;*/
+    padding-right: 20em;
+}
+
+footer a
+{
+    color: black;
 }
 
 footer li

@@ -3,64 +3,83 @@
     header
     {
         padding: 0;
+        margin: 1.2em 0 0 0;
+        border-bottom: 2px solid #f2f2f2;
     }
 
     .logo
     {
-        flex-grow: 1;
-        padding: 0 2em 0 0.5em;
+        padding: 0 0 1em 1.2em;
     }
     
-   /*nav
+    nav
     {
-        order: 2;
         width: 100%;
-    }*/
+    }
 
     nav ul
     {
         flex-flow: row-reverse wrap-reverse;
+        justify-content: space-between;
         padding: 0;
-        width: 100%;
+        margin: 0; 
     }
 
     nav li
     {
-        padding: 0;
+        padding: 0; 
     }
 
     nav li:hover
     {
-        border-top: none;
         border-bottom: 2px solid #0065fc;
+        border-top: none;
     }
 
     nav a
     {
         margin: 0;
-    }
-    .n1, .n3
-    {
-        order: 1;
-        width: 30%;
-        /*text-align: center;*/
+        padding-right: 1.25em;
     }
 
+    .sign-up
+    {
+        order: 1;
+        padding: 1.2em 1.2em 0em 0;
+        background-color: unset;
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        color: #0065fc;
+    }
+
+    .sign-up:hover
+    {
+        border: none;
+    }
     .n1
     {
-        padding: 23px 50px 0 0;
-        /*text-align: center;*/
+        order: 1;
+        margin: 2em 0 0em -4em;
+        width: 50%;
+        text-align: center;
+        padding-bottom: 1em;
     }
 
     .n2
     {
-        padding: 23px 0 19px;
+        margin: 2em 0 0em 1em;
+        width: 50%;
+        padding-bottom: 1em;
+        text-align: center;
     }
 
     h1
     {
         font-size: 25px;
     }
+    
     .recherche1
     {
        display: none;
@@ -70,6 +89,7 @@
     {
         display: flex;
         align-items: center;
+        /*margin: 1em 1.2em 1.5em 1.2em;*/
     }
 
     .marqueur_1
@@ -77,17 +97,17 @@
     border-radius: 20px 0 0 20px;
     background-color: #f2f2f2;      
     font-size: 18px;
-    padding: 0.9em;
+    padding: 1.3em;
     }
 
     input
     {
     border: 2px solid #f2f2f2;
     font-size: 15px;
-    padding: 1em;
+    padding: 1.5em;
     font-weight: bold;
     color: black;
-    width: 210px;
+    width: 270px;
     }
 
     .marqueur_2
@@ -97,7 +117,7 @@
     color: white;
     border: 1px solid #f2f2f2; 
     font-size: 15px;
-    padding: 1.1em;
+    padding: 1.6em;
     margin-left: -1em;
     flex-shrink: 0;
     overflow: hidden;
@@ -110,24 +130,23 @@
 
     #s1
     {
-        padding-left: 0.5em;
-        padding-right: 0.5em;
+        padding: 0 1.2em 0 1.2em;
     }
 
-    .options_f
+    .i1, .i3, .i2, .i4
     {
-        padding-left: 0;
+        margin: 1em 0.8em 1em 0.9em;
     }
 
     .title_f
     {
-        padding-top: 1em;
-        padding-left: 0.5em;
+        padding: 1em 1.2em 0 1.2em;
+        font-size: 18px;
     }
 
     .results_info
     {
-        padding: 0;
+        padding: 0 1.2em 0 1.2em;
     }
 
     .s2
@@ -136,16 +155,27 @@
         flex-flow: column-reverse wrap;
     }
 
+    #ah1
+    {
+        background-color: white;
+        padding: 2em 1.2em 0 1.2em;
+    }
     aside
     {
         margin: 0;
-        padding: 0;
+        padding: 0; 
         border-radius: 0; 
     }
 
     .graphique
     {
-        padding: 3em 1em 0 0.5em;
+        padding: 3em 1em 0 1em;
+        font-size: 20px;
+    }
+
+    .p1
+    {
+        width: 343px;
     }
 
     .image
@@ -153,40 +183,35 @@
         width: 343px;
     }
 
-    #ah1
-    { 
-        background-color: white;
-        padding: 3em 0.5em 0 0.5em;
-    }
-
     #logements
     {
-        padding-left: 0.5em;
+        padding: 0;
+        font-size: 20px;
     }
 
     .ap
     {
-        padding-left: 0.5em;
+        padding: 1em 0 2.5em 1.2em;
     }
-
+    
     /*Activities'beginning*/
 
     .s3
     {
-        padding-left: 0.5em;
-        padding-right: 0.5em;
+        padding: 0;
     }
 
     .aa1
     {
         flex-flow: column nowrap;
+        padding: 0 1.2em 0 1.2em;
     }
 
     .vp, .fp, .if, .ndg, .pl, .cal
     {
-        width: 345px;
+        width: 343px;
         height: 150px;
-        margin-bottom: 1em;
+        margin: 1em 0 1em 0;
         padding-bottom: 3.5em;
     }
 
@@ -197,9 +222,21 @@
 
     }
 
+    #visites
+    {
+            padding: 0 1.2em 1em 1em;
+            font-size: 20px;
+    }
+    
     footer
     {
         flex-flow: column nowrap;
+        padding-right: 0;
+    }
+
+    footer a
+    {
+        color: black;
     }
 
     footer ul
@@ -209,7 +246,7 @@
 
     .title_ap
     {
-        padding: 0.9em;
+        padding: 1em;
         padding-right: 0;
     }
 }
