@@ -1,6 +1,7 @@
 body
 {
     font-family: 'Raleway', sans-serif;
+    margin: auto;
 }
 
 /*Header*/
@@ -9,15 +10,15 @@ header
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-left: 3em;
+    padding: 0 3em 0 3em;
 }
 
-/*Navigation*/
+
+/*Navigation's beginning*/
 nav ul
 {
     list-style: none;
     display: flex;
-    margin-right: 3em;
 }
 
 nav li 
@@ -42,24 +43,40 @@ nav li:hover
     border-top: 2px solid #0065fc;
 }
 
+.sign-up
+{
+    padding-top: 3em;
+    background-color: unset;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-up:hover
+{
+    border-top: 2px solid #0065fc;
+}
+/*Navigation's ending*/
+
 h1
 {
     font-size: 20px;
 }
 
-/*Logo*/
-.s1
+/*Beginning's top*/
+#s1
 {
-    margin-left: 3em;
+    padding: 0 3em 0 3em;
 }
+
 .logo
 {
     padding-top: 3em;
-    text-align: left;
 }
 
 /*Begin's search*/
-#recherche
+.recherche1
 {
     display: flex;
     align-items: center;
@@ -96,21 +113,35 @@ input
 {
     cursor: pointer;
 }
+
+.recherche2 
+{
+    display: none;
+}
 /*End's search*/
 
 /*Filters'beginning*/
-.filters
+#filters
 {
     display: flex;
-    align-items: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    flex-flow: row wrap;
+    /*align-items: center;*/
 }
+
 
 .title_f
 {
     font-size: 18px; 
     font-weight: bold;
+    padding-top: 1em;
+}
+
+.options_f
+{
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 1em;
+    padding-left: 1em;
 }
 
 a
@@ -124,7 +155,7 @@ a
     background-color: #deebff;
     padding: 0.9em;
     border-radius: 100%;
-    margin: 0 0.7em 0 -0.5em;
+    margin: 0 0.7em 0 -1em;
 }
 
 .icone2
@@ -133,10 +164,10 @@ a
     background-color: #deebff;
     padding: 0.9em 1.1em 0.9em 1.1em;
     border-radius: 100%;
-    margin: 0 0.7em 0 -0.5em;
+    margin: 0 0.7em 0 -1em;
 }
 
-.i1
+.i1, .i3, .i2, .i4
 {
     margin: 1em;
     border-radius: 20px 20px 20px 20px;
@@ -147,7 +178,7 @@ a
     padding: 0.8em 1em 0.8em 0;
 }
 
-.i1:hover
+.i1:hover, .i2:hover, .i3:hover, .i4:hover
 {
     background-color: #0065fc;
     color: white;
@@ -156,27 +187,42 @@ a
 /*Filters'Ending*/
 
 /*Reuslt*/
+.results_info
+{
+    display: flex;
+    align-items: center;
+}
+
 .information
 {
     color: #0065fc;
     font-size: 13px;
     padding: 0.8em 1.1em 0.8em 1.1em;
-    margin: 2em 0.8em 1em 0;
+    margin-right: 0.6em;
     border-radius: 100%;
     border: 2px solid #f2f2ff;
-    text-align: center;
+    font-weight: 900;
 }
+
+.result
+{
+    font-size: 16px;  
+    margin-right: 2em;
+}
+/*Results'ending*/
+
+/*Top's Ending*/
 
 /*Accomodations'beginning*/
 .s2
 {
     display: flex;
-    margin: 2em 0 0 3em;
+    margin: 2em 0 0 3em
 }
 
 #logements
 {
-    margin-left: 3em;
+    padding-left: 1em;
     font-size: 18px;
     font-weight: bold;
 }
@@ -185,13 +231,14 @@ a
 {
     background-color: #f2f2f2;
     border-radius: 30px 30px 30px 30px;
+    padding: 1em 2em 0 2em;
 }
 
 .presentation
 {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-content: center;
 }
 
@@ -200,8 +247,8 @@ a
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     padding-bottom: 0.5em;
-    margin-bottom: 1em;
-    box-shadow: 10px 10px 5px #f2f2f2;
+    margin-bottom: 2.5em;
+    box-shadow: 0 0 16px #f2f2f2;
 }
 
 .image
@@ -215,7 +262,7 @@ a
 
 .ap
 {
-    padding: 1.5em 3em;
+    padding: 0 0 2.5em 1em;
     font-size: 16px;
     font-weight: bold;
 }
@@ -236,7 +283,7 @@ a
 aside
 {
     margin: auto 3em auto 3em;
-    padding: 0em 1.2em 0 1.2em;
+    padding: 0 1.2em 0 1.2em;
     background-color: #f2f2f2;
     border-radius: 30px 30px 30px 30px;
 }
@@ -251,7 +298,7 @@ aside
     border-radius: 20px 20px 20px 20px;
     margin: 2em auto 2em auto;
     font-size: 16px;
-    box-shadow: 10px 10px 5px #f2f2f2;
+    box-shadow: 0 0 16px #f2f2f2;
 }
 
 .image1
@@ -267,7 +314,7 @@ aside
 {
     display: flex;
     justify-content: space-between;
-    padding-top: 3em;
+    padding-top: 1.8em;
     font-weight: bold;
     font-size: 18px;
 }
@@ -317,6 +364,8 @@ aside
 #visites
 {
     font-size: 18px;
+    padding-bottom: 1em;
+    /*padding-left: 0.5em;*/
 }
 
 .aa1
@@ -330,7 +379,7 @@ aside
 {
     border-radius: 20px 20px 20px 20px;
     background-color: white;
-    box-shadow: 9px 9px 4px #f2f2f2;
+    box-shadow: 0 0 16px #f2f2f2;
     height: 550px;
     padding-bottom: 0.9em;
 }
@@ -339,7 +388,7 @@ aside
 {
     background-color: white;
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 10px 10px 5px #f2f2f2;
+    box-shadow: 0 0 16px #f2f2f2;
     padding-bottom: 0.1em;
     margin-bottom: 1.5em;
 }
@@ -348,7 +397,7 @@ aside
 {
     border-radius: 20px 20px 20px 20px;
     background-color: white;
-    box-shadow: 10px 10px 5px #f2f2f2;
+    box-shadow: 0 0 16px #f2f2f2;
     padding-bottom: 0.1em;
 }
 
@@ -356,7 +405,7 @@ aside
 {
     border-radius: 20px 20px 20px 20px;
     background-color: white;
-    box-shadow: 10px 10px 5px #f2f2f2;
+    box-shadow: 0 0 16px #f2f2f2;
     padding-bottom: 0.1em;
     margin-bottom: 1em;
 }
@@ -365,7 +414,7 @@ aside
 {
     border-radius: 20px 20px 20px 20px;
     background-color: white;
-    box-shadow: 10px 10px 5px #f2f2f2;
+    box-shadow: 0 0 16px #f2f2f2;
     padding-bottom: 0.1em;
 }
 
@@ -373,7 +422,7 @@ aside
 {
     border-radius: 20px 20px 20px 20px;
     background-color: white;
-    box-shadow: 10px 10px 5px #f2f2f2;
+    box-shadow: 0 0 16px #f2f2f2;
     height: 550px;
     padding-bottom: 0.9em;
 }
@@ -412,7 +461,7 @@ aside
 
 h3
 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 900;
     padding-left: 0.6em;
 }
@@ -424,9 +473,13 @@ footer
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-content: center;
-    background-color: #f2f2f2;
-    padding-right: 3em;
+    background-color: #f2f2f2; 
+    padding-right: 20em;
+}
+
+footer a
+{
+    color: black;
 }
 
 footer li
@@ -435,7 +488,11 @@ footer li
     margin: 0.6em;
 }
 
-.title_ap
+footer ul
 {
     padding-left: 2.8em;
+}
+.title_ap
+{
+    padding-left: 3em;
 }
