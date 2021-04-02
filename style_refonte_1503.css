@@ -224,6 +224,7 @@ a
     padding: 1.5em 0 1em 1.5em;
     font-size: 18px;
     font-weight: bold;
+    margin: 0;
 }
 
 #ah1
@@ -355,7 +356,7 @@ aside
 /*Populars' ending*/
 
 /*Activities' beginning*/
-.s3
+#s3
 {
     padding: 3em;
 }
@@ -364,6 +365,7 @@ aside
 {
     font-size: 18px;
     padding-bottom: 1em;
+    margin: 0;
 }
 
 .aa1
@@ -371,6 +373,7 @@ aside
     display: flex;
     justify-content: space-between;
     align-content: center;
+    align-items: center;
 }
     
 .vp
@@ -378,7 +381,7 @@ aside
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     box-shadow: 0 0 16px grey;
-    height: 550px;
+    height: 100%;
 }
 
 .fp
@@ -388,6 +391,7 @@ aside
     box-shadow: 0 0 16px grey;
     padding-bottom: 0.1em;
     margin-bottom: 1.5em;
+    height: 100%;
 }
 
 .if
@@ -396,6 +400,7 @@ aside
     background-color: white;
     box-shadow: 0 0 16px grey;
     padding-bottom: 0.1em;
+    height: 100%;
 }
 
 .ndg
@@ -405,7 +410,9 @@ aside
     box-shadow: 0 0 16px grey;
     padding-bottom: 0.1em;
     margin-bottom: 1em;
+    height: 100%;
 }
+
 
 .pl
 {
@@ -413,6 +420,7 @@ aside
     background-color: white;
     box-shadow: 0 0 16px grey;
     padding-bottom: 0.16em;
+    height: 100%;
 }
 
 .cal
@@ -420,13 +428,13 @@ aside
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     box-shadow: 0 0 16px grey;
-    height: 550px;
+    height: 100%;
 }
 
 .image2
 {
     width: 310px;
-    height: 495px;
+    height: 492px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
     box-shadow: 0 0 16px grey;
@@ -435,7 +443,7 @@ aside
 .image3
 {
     width: 310px;
-    height: 243px;
+    height: 242px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
     box-shadow: 0 0 16px grey;
