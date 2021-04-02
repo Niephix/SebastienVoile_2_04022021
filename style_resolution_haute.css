@@ -1,9 +1,11 @@
-@media screen and (max-width: 1640px)
+/*@media screen and (min-width: 1520px)
 {
-    #main
+    
+
+    #vistes, #s1, #s2, #s3, footer, header, nav
     {
-        width: auto;
-        margin: auto;
+        /*flex-grow: 0;
+        flex-shrink: 0;
     }
 
-}
+}*/
