@@ -1,33 +1,133 @@
-    @media all and (max-width: 1024px)
+/*@media all and (min-width: 700px) and (max-width: 1032px)
+{
+    .h2
     {
-        #main
-        { 
-            width: auto;
-        }
+        font-size: 0;
+    }
 
-        #s2
-        {
-            padding: 0;
-            display: block;
-        }
+    .title_f
+    {
+        display: block;
+        padding: 1em;
+    }
 
-        #ah1
-        {
-            width: auto;
-        }
+    .s1
+    {
+        margin-bottom: 0;
+    }
 
-        .c1
-        {
-            flex-flow: column wrap;
-        }
+    .il
+    {
+        margin: 1.5em;
+    }
 
-        .c2
-        {
-            flex-flow: column wrap;
-        }
+    .s2
+    {
+        padding: 0;
+    }
 
+    #ah1
+    {
+        width: 50%;
+        background-color: white;
+    }
+
+    .presentation
+    {
+        align-items: center;
+    }
+
+    aside
+    {
+        width: 50%;
+        padding-bottom: 0.7em;
+        background-color: white;
+    }
+
+    .graphique
+    {
+        padding-top: 3em;
+    }
+
+    .aa1
+    {
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .vp
+    {
+        max-width: 310px;
+        margin: 1em;
+    }
+
+    .fpif
+    {
+        max-width: 310px;
+    }
+
+    .cal
+    {
+        max-width: 310px;
+        margin: 1em;
+    }
+
+    .ndgpl
+    {
+        max-width: 310px;
+        padding-top: 1em;
+    }
+
+    .image2
+    {
+        max-width: 310px;
+        max-height: 390px;
+    }
+
+    .image3
+    {
+        max-width: 310px;
+        max-height: 136px;
+    }
+
+    .image4
+    {
+        max-width: 310px;
+        max-height: 136px;
+    }
 
     }
 
+@media all and (min-width: 1033px) and (max-width: 1350px)
+{
+    #ah1
+    {
+        background-color: white;
+        padding-left: 3em;
+    }
+
+    aside
+    {
+        background-color: white;
+    }
+
+    .aa1
+    {
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+
+    .ndgpl
+    {
+       flex-flow: row nowrap;
+       padding: 2em;
+    }
+
+    .ndg
+    {
+        margin-right: 2em;
+    }
+
+}*/
 
     

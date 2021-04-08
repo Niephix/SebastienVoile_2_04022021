@@ -1,9 +1,15 @@
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 720px)
 {
+    #main
+    {
+        margin: 0;
+    }
+
+/*Header's beginnig*/
     header
     {
         padding: 0;
-        margin: 1.2em 0 0 0;
+        margin: 1.2em 0;
         border-bottom: 2px solid #f2f2f2;
     }
 
@@ -12,28 +18,19 @@
         padding: 0 0 1em 1.2em;
     }
     
-    nav
-    {
-        width: 100%;
-    }
-
+    /*Navigation's beginning*/
+    
     nav ul
     {
         flex-flow: row-reverse wrap-reverse;
         justify-content: space-between;
         padding: 0;
-        margin: 0; 
+        border-top: none;
     }
 
     nav li
     {
         padding: 0; 
-    }
-
-    nav li:hover
-    {
-        border-bottom: 2px solid #0065fc;
-        border-top: none;
     }
 
     nav a
@@ -42,28 +39,32 @@
         padding-right: 1.25em;
     }
 
-    .sign-up
+    .sign_up
     {
         order: 1;
-        padding: 1.2em 1.2em 0em 0;
+        padding: 1.2em 0;
         background-color: unset;
         border: none;
         font-size: 16px;
-        font-weight: bold;
         cursor: pointer;
-        color: #0065fc;
     }
 
-    .sign-up:hover
+    .sign_up
+    {
+        color:#0065fc;
+        font-weight: bold;
+    }
+
+    .sign_up:hover, .signup:hover
     {
         border: none;
     }
+
     .n1
     {
         order: 1;
         margin: 2em 0 0em -4em;
         width: 50%;
-        text-align: center;
         padding-bottom: 1em;
     }
 
@@ -72,24 +73,45 @@
         margin: 2em 0 0em 1em;
         width: 50%;
         padding-bottom: 1em;
-        text-align: center;
     }
 
+    nav a:hover
+    {
+        border-top: none; 
+        padding-bottom: 1em;
+    }
+
+    nav a:active
+    {
+        border-bottom: 2px solid #0065fc;
+        padding-bottom: 1em;
+    }
+
+    /*Navigation's ending*/
     h1
     {
         font-size: 25px;
     }
-    
+    /*Header's ending*/
+
+    /*Searching's beginning*/
     .recherche1
     {
        display: none;
     }
 
+    #s1
+    {
+        padding: 0 1.2em 0 1.2em;
+    }
+
     .recherche2
     {
         display: flex;
+        justify-content: center;
         align-items: center;
-        /*margin: 1em 1.2em 1.5em 1.2em;*/
+        width: 337px;
+        height: 55px;
     }
 
     .marqueur_1
@@ -97,17 +119,14 @@
     border-radius: 20px 0 0 20px;
     background-color: #f2f2f2;      
     font-size: 18px;
-    padding: 1.3em;
     }
 
     input
     {
     border: 2px solid #f2f2f2;
-    font-size: 15px;
-    padding: 1.5em;
     font-weight: bold;
     color: black;
-    width: 270px;
+    width: 250px;
     }
 
     .marqueur_2
@@ -117,20 +136,18 @@
     color: white;
     border: 1px solid #f2f2f2; 
     font-size: 15px;
-    padding: 1.6em;
     margin-left: -1em;
-    flex-shrink: 0;
-    overflow: hidden;
     }
+
+    #ville_pays::placeholder 
+    {
+    color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+    }   
 
     .marqueur_2:hover
     {
     cursor: pointer;
-    }
-
-    #s1
-    {
-        padding: 0 1.2em 0 1.2em;
     }
 
     .i1, .i3, .i2, .i4
@@ -140,92 +157,113 @@
 
     .title_f
     {
-        padding: 1em 1.2em 0 1.2em;
         font-size: 18px;
     }
 
-    .results_info
+    .options_f
     {
-        padding: 0 1.2em 0 1.2em;
+        padding: 0;
     }
 
-    .s2
+     /*Top's ending*/
+
+    /*Accomodations' beginning*/ 
+    #s2
     {
-        margin: 0;
+        margin: auto;
         flex-flow: column-reverse wrap;
+        width: 375px;
     }
 
     #ah1
     {
         background-color: white;
-        padding: 2em 1.2em 0 1.2em;
+        margin: 0;
+        padding: 0 1.2em 0 1.2em;
+        width: 100%; 
+        display: block;
     }
+
     aside
     {
         margin: 0;
-        padding: 0; 
+        padding: 0;
         border-radius: 0; 
+        width: 400px;
+        order: 1;
     }
 
     .graphique
     {
-        padding: 3em 1em 0 1em;
         font-size: 20px;
+        width: 88%;
+        padding: 2.5em 0 2em 1.2em;
     }
 
     .p1
     {
-        width: 343px;
-    }
-
-    .image
-    {
-        width: 343px;
+        width: auto;
+        margin: 0 1.2em 1em 1.2em;
     }
 
     #logements
     {
-        padding: 0;
         font-size: 20px;
+        padding: 2.5em 0 2em 1.2em;
+    }
+
+    .presentation
+    {
+        display: inline-block;
+        max-width: 340px;
+    }
+
+    .vignettes
+    {
+        max-width: 350px;
+    }
+
+    .image
+    {
+        width: 330px;
+        height: 150px;
     }
 
     .ap
     {
-        padding: 1em 0 2.5em 1.2em;
+        padding: 0 0 2.5em 0;
     }
+    /*Accomodations' ending
     
     /*Activities'beginning*/
-
-    .s3
+    #s3
     {
-        padding: 0;
+        margin: 0;
     }
 
     .aa1
     {
         flex-flow: column nowrap;
-        padding: 0 1.2em 0 1.2em;
-    }
-
-    .vp, .fp, .if, .ndg, .pl, .cal
-    {
-        width: 343px;
-        height: 150px;
-        margin: 1em 0 1em 0;
-        padding-bottom: 3.5em;
     }
 
     .image2, .image3, .image4, .image5
     {
-        width: 343px;
-        height: 150px; 
-
+        width: 340px;
+        height: 150px;
     }
 
+    .vp, .fp, .if, .cal, .ndg, .pl
+    {
+        margin-bottom: 2em;
+        max-width: 100%;
+        box-shadow: 0 0 10px red;
+    }
+    
+    
     #visites
     {
-            padding: 0 1.2em 1em 1em;
-            font-size: 20px;
+        padding-left: 0.9em;
+        font-size: 20px;
     }
     
     footer
@@ -246,8 +284,7 @@
 
     .title_ap
     {
-        padding: 1em;
-        padding-right: 0;
+        padding: 3em 0 0 1em;
     }
 }
 
