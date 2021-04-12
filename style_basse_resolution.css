@@ -2,27 +2,35 @@
 {
     #main
     {
-        margin: 0 /*auto*/;
+        margin:  0 auto;
+        min-width: 375px;
     }
 
 /*Header's beginnig*/
     header
     {
         padding: 0;
-        margin: 1.2em 0;
+        margin: 0;
         border-bottom: 2px solid #f2f2f2;
+        border-top: none;
     }
 
     .logo
     {
-        padding: 0 0 1em 1.2em;
+        padding:2em 1.2em;
     }
     
     /*Navigation's beginning*/
     
+    nav
+{
+    padding-top: 0;
+    min-width: 100px;
+}
+
     nav ul
     {
-        flex-flow: row-reverse wrap-reverse;
+        flex-flow: row nowrap;
         justify-content: space-between;
         padding: 0;
         border-top: none;
@@ -36,46 +44,27 @@
     nav a
     {
         margin: 0;
-        padding-right: 1.25em;
     }
 
-    .sign_up
+    /*.signup
     {
-        order: 1;
-        padding: 1.2em 0;
-        background-color: unset;
-        border: none;
-        font-size: 16px;
-        cursor: pointer;
-    }
-
-    .sign_up
-    {
-        color:#0065fc;
-        font-weight: bold;
-    }
-
-    .signup
-    {
-        order: 1;
-        padding: 1.2em 1.2em 0 1.2em;
-    }
-    .sign_up:hover, .signup:hover
+        margin: 1.8em 0 0 -5.5em;
+    }*/
+    .signup:hover
     {
         border: none;
     }
 
     .n1
     {
-        order: 1;
-        margin: 2em 0 0 -4em;
-        padding-bottom: 1em;
+       margin: 5em 3em 1em -5em;
+       min-width: 100px;
     }
 
     .n2
     {
-        margin: 2em 0 0em 1em;
-        padding-bottom: 1em;
+        margin: 5em 0 1em 4.5em;
+        min-width: 100px;
     }
 
     nav a:hover
@@ -94,7 +83,6 @@
     h1
     {
         font-size: 25px;
-        margin-right: 1.2em;
     }
     /*Header's ending*/
 
@@ -106,23 +94,21 @@
 
     #s1
     {
-        padding: 0 0 0 1.2em;
+        padding: 0 1.2em 0 1.2em;
         margin: 0;
-        /*max-width: 413px;*/
     }
 
     .pcvpn
     {
         margin: 0;
-        padding: 1em 1.2em 2em 0;
+        padding: 1em 0 2em 0;
     }
 
     .recherche2
     {
         display: flex;
         justify-content: center;
-        /*align-items: center;*/
-        max-width: 375px;
+        /*max-width: 375px;*/
     }
 
     .marqueur_1
@@ -183,7 +169,7 @@
     {
         margin: auto;
         flex-flow: column-reverse wrap;
-        max-width: 413px;
+        /*max-width: 413px;*/
     }
 
     #ah1
@@ -202,7 +188,6 @@
         border-radius: 0; 
         order: 1;
         display: block;
-        width: 100%;
     }
 
     .graphique
@@ -218,6 +203,12 @@
         margin: 0 1.2em 1em 1.2em;
     }
 
+    .nuitee2
+    {
+        font-size: 14px;
+        padding-bottom: 1em;
+    }
+
     #logements
     {
         font-size: 20px;
@@ -227,7 +218,7 @@
     .presentation
     {
         display: block;
-        max-width: 413px;
+        /*max-width: 413px;*/
         box-sizing: content-box;
     }
 
@@ -254,7 +245,7 @@
     #s3
     {
         margin: 0;
-        max-width: 413px;
+        /*max-width: 413px;*/
     }
 
     .aa1
@@ -262,7 +253,7 @@
         display: block;
         margin: 0;
         padding: 0 1.2em 0 1.2em;
-        width: 90%;
+        /*width: 90%;*/
     }
 
     .image2, .image3, .image4, .image5
@@ -289,7 +280,7 @@
     footer
     {
         flex-flow: column nowrap;
-        padding-right: 0;
+        padding: 0 1.2em;
     }
 
     footer a
@@ -299,12 +290,16 @@
 
     footer ul
     {
-        padding-left: 0.5em
+        padding: 0; 
     }
 
+    footer li
+    {
+        margin: 0.6em 0;
+    }
     .title_ap
     {
-        padding: 3em 0 0 1em;
+        padding: 2.4em 0 0 0;
     }
 }
 
