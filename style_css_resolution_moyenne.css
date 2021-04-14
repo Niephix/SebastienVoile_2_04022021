@@ -1,9 +1,9 @@
-@media all and (min-width: 720px) and (max-width: 1440px)
+@media all and (min-width: 720px) and (max-width: 1250px)
 {
-    /*#main
+    #main
     {
         margin: 0 auto;
-    }*/
+    }
 
     header
     {
@@ -55,12 +55,16 @@
         margin: 0;
     }
 
+    .image
+    {
+       max-width: 320px;
+    }
+
     aside
     {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
-        min-height: 300px;
         margin: 0; 
         box-sizing: content-box;
         border-radius: 0;
@@ -68,13 +72,13 @@
 
     .p1
     {
-        width: 300px;
+        max-width: 320px;
         height: 140px;
     }
 
     .image1
     {
-        width: 130px;
+        min-width: 130px;
         height: 140px;
     }
 
@@ -97,40 +101,64 @@
     {
         background-color: unset;
         border-radius: 0;
-        width: 88.5%;
     }
+
+    /*.image
+    {
+        max-width: 320px;
+    }*/
+
 
     .aa1
     {
-        display: flex;
-        flex-flow: column wrap;
+        flex-flow: row wrap;
     }
+
+    /*.vp, .fp, .if, .cal, .ndg, .pl
+    {
+        width: 300px;
+    }*/
 
     .vp
     {
-        order: -3;
-        width: 235px;
-        margin: 2em 15em 0 auto;
+        order: 1;
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
 
-    .fpif, .ndgpl
+    .fpif
     {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 2em;
+        order: 2;
     }
+
+    .fp
+    {
+        margin-bottom: 2em;
+    }
+
 
     .cal
     {
-        order: -3;
-        width: 235px;
-        margin: -14em 3em 0 auto;
-        padding: 0;
+        order: 1;
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
-    
+
+    .ndgpl
+    {
+        order: 3;
+    }   
+
+    .ndg
+    {
+        margin-bottom: 2em;
+    }
+
+
+
     .image2, .image3, .image4, .image5
     {
-        width: 235px;
+        min-width: 320px;
         height: 150px;
     }
 
@@ -141,7 +169,7 @@
 
     .title_ap
     {
-        padding-left: 3em;
+        padding: 2em 0 0 2.8em;
     }
 
     footer li
