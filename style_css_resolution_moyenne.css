@@ -42,7 +42,6 @@
     .title_f
     {
         display: block;
-        /*padding: 0 1em 0 0;*/
     }
 
     .options_f
@@ -104,14 +103,9 @@
         border-radius: 0;
     }
 
-    /*.vp, .fp, .if, .cal, .ndg, .pl
-    {
-        width: 300px;
-    }*/
 
     .vp
     {
-        /*margin-bottom: 2em;*/
         max-width: 220px;
     }
 
@@ -193,7 +187,7 @@
     }
 }
 
-@media screen and (min-width: 640px) and (max-width: 920px)
+@media screen and (min-width: 630px) and (max-width: 920px)
 {
 
     #s3

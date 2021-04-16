@@ -1,8 +1,8 @@
-@media all and (min-width: 320px) and (max-width: 720px)
+@media all and (min-width: 320px) and (max-width:720px)
 {
     #main
     {
-        max-width: 720px;
+        max-width: 780px;
     }
 
 /*Header's beginnig*/
@@ -16,7 +16,7 @@
 
     .logo
     {
-        padding: 2em 1.2em;
+        padding-left: 1.2em;
     }
     
     /*Navigation's beginning*/
@@ -46,7 +46,7 @@
 
     .signup
     {
-        margin: 3em 1.2em 0 0;
+        margin: 3em 1.2em 0 1.2em;
         padding: 0; 
     }
 
@@ -56,15 +56,9 @@
 
     }
 
-    .n1
-    {
-       margin: 5em 3em 1em -5em;
-       min-width: 100px;
-    }
-
     .n2
     {
-        margin: 5em 0 1em 4em;
+        margin: 5em 0 1em 3em;
         min-width: 100px;
     }
 
@@ -92,7 +86,8 @@
     /*Searching's beginning*/
     .recherche1
     {
-       display: none;
+        display: flex;
+        justify-content: center
     }
 
     #s1
@@ -107,46 +102,49 @@
         padding: 1em 0 2em 0;
     }
 
-    .recherche2
+    .marqueur_3
     {
         display: flex;
         justify-content: center;
+        border-radius: 20px;
+        background-color: #0065fc;
+        color: white;
+        border: 1px solid #f2f2f2; 
+        font-size: 15px;
+        padding: 17px;
+        margin-left: -1em;
     }
 
     .marqueur_1
     {
-    border-radius: 20px 0 0 20px;
-    background-color: #f2f2f2;      
-    font-size: 18px;
+        border-radius: 20px 0 0 20px;
+        background-color: #f2f2f2;      
+        font-size: 18px;
     }
 
     input
     {
-    border: 2px solid #f2f2f2;
-    font-weight: bold;
-    color: black;
-    min-width: 75%;
+        border: 2px solid #f2f2f2;
+        font-weight: bold;
+        color: black;
+        min-width: 75%;
     }
 
     .marqueur_2
     {
-    border-radius: 20px;
-    background-color: #0065fc;
-    color: white;
-    border: 1px solid #f2f2f2; 
-    font-size: 15px;
-    margin-left: -1em;
+        display: none;
     }
+
 
     #ville_pays::placeholder 
     {
-    color: rgba(0, 0, 0, 1);
-    font-weight: bold;
+        color: rgba(0, 0, 0, 1);
+        font-weight: bold;
     }   
 
-    .marqueur_2:hover
+    .marqueur_3:hover
     {
-    cursor: pointer;
+        cursor: pointer;
     }
 
     .i1, .i3, .i2, .i4
@@ -198,7 +196,7 @@
 
     .p1
     {
-        width: 340px;
+        width: 300px;
     }
 
     .nuitee2
@@ -215,20 +213,23 @@
 
     .presentation
     {
-        box-sizing: content-box;
+        box-sizing: border-box;
     }
 
     .vignettes
     {
         display: block;
-        box-sizing: content-box;
+        box-sizing: border-box;
         padding: 0;
+        width: 330px;
     }
 
     .image
     {
+        
+        width: 100%;
         height: 150px;
-        box-sizing: content-box;
+        box-sizing: border-box;
     }
 
     .ap
@@ -240,7 +241,7 @@
     /*Activities'beginning*/
     #s3
     {
-        margin: 1.2em;
+        margin: 0 1.2em;
     }
 
     .aa1
@@ -251,7 +252,7 @@
 
     .image2, .image3, .image4, .image5
     {
-        width: 100%;
+        width: 335px;
         height: 150px;
         box-sizing: content-box;
     }
@@ -259,7 +260,7 @@
     .vp, .cal, .fp, .if, .ndg, .pl
     {
         margin-bottom: 2em;
-        max-width: 100%;
+        width: 335px;
         box-shadow: 0 0 10px #f2f2f2;
         box-sizing: content-box;
     }
@@ -295,7 +296,7 @@
     }
 }
 
-@media screen and (max-width: 400px)
+@media all and (max-width: 480px)
 {
 
     .n1
@@ -308,10 +309,10 @@
         margin: 5em 0 1em 4em;
     }
 
-    .graphique
+    /*.graphique
     {
         width: auto;
-    }
+    }*/
 
     .p1
     {
@@ -320,11 +321,15 @@
 
     .image
     {
-        width: 330px;
         height: 150px;
     }
 
-    .image2, .image3, .image4, .image5
+    .vignettes
+    {
+        width: 100%;
+    }
+
+    /*.image2, .image3, .image4, .image5
     {
         width: 330px;
         height: 190px;
@@ -338,7 +343,7 @@
     .ndgpl
     {
         order: 3;
-        /*display: flex;*/
+        display: flex;
     }
     
     .vp
@@ -349,14 +354,14 @@
     .cal
     {
         order: 1;
-    }
+    }*/
 
     .pnc
     {
         padding: 1.5em 0 1.5em 1em;
         font-size: 13px;
     }
-}
+}*/
 
 @media screen and (max-width:350px)
 {
