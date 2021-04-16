@@ -2,8 +2,7 @@
 {
     #main
     {
-        margin:  0 auto;
-        min-width: 300px;
+        max-width: 720px;
     }
 
 /*Header's beginnig*/
@@ -17,7 +16,7 @@
 
     .logo
     {
-        padding:2em 1.2em;
+        padding: 2em 1.2em;
     }
     
     /*Navigation's beginning*/
@@ -158,6 +157,7 @@
     .title_f
     {
         font-size: 18px;
+        padding: 1em 0 0;
     }
 
     .options_f
@@ -185,23 +185,20 @@
     aside
     {
         margin: 0;
-        padding: 0;
+        padding: 2em;
         border-radius: 0; 
-        order: 1;
         display: block;
     }
 
     .graphique
     {
         font-size: 20px;
-        width: 90%;
-        padding: 2.5em 0 2em 1.2em;
+        width: 98%;
     }
 
     .p1
     {
-        width: auto;
-        margin: 0 1.2em 1em 1.2em;
+        width: 340px;
     }
 
     .nuitee2
@@ -218,7 +215,6 @@
 
     .presentation
     {
-        display: block;
         box-sizing: content-box;
     }
 
@@ -226,11 +222,11 @@
     {
         display: block;
         box-sizing: content-box;
+        padding: 0;
     }
 
     .image
     {
-        width: 97%;
         height: 150px;
         box-sizing: content-box;
     }
@@ -244,14 +240,13 @@
     /*Activities'beginning*/
     #s3
     {
-        margin: 0;
+        margin: 1.2em;
     }
 
     .aa1
     {
-        display: block;
         margin: 0;
-        padding: 0 1.2em 0 1.2em;
+        display: block;
     }
 
     .image2, .image3, .image4, .image5
@@ -261,7 +256,7 @@
         box-sizing: content-box;
     }
 
-    .axl, .fp, .if, .ndg, .pl
+    .vp, .cal, .fp, .if, .ndg, .pl
     {
         margin-bottom: 2em;
         max-width: 100%;
@@ -271,10 +266,9 @@
     
     #visites
     {
-        padding-left: 1.1em;
         font-size: 20px;
     }
-    
+
     footer
     {
         flex-flow: column nowrap;
@@ -298,6 +292,69 @@
     .title_ap
     {
         padding: 2.4em 0 0 0;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+
+    .n1
+    {
+        margin: 5em 3em 1em -5em;
+    }
+
+    .n2
+    {
+        margin: 5em 0 1em 4em;
+    }
+
+    .graphique
+    {
+        width: auto;
+    }
+
+    .p1
+    {
+        width: auto;
+    }
+
+    .image
+    {
+        width: 330px;
+        height: 150px;
+    }
+
+    .image2, .image3, .image4, .image5
+    {
+        width: 330px;
+        height: 190px;
+    }
+
+    .fpif
+    {
+        order: 2;
+    }
+
+    .ndgpl
+    {
+        order: 3;
+        /*display: flex;*/
+    }
+    
+    .vp
+    {
+        order: 1;
+    }
+
+    .cal
+    {
+        order: 1;
+    }
+
+    .pnc
+    {
+        padding: 1.5em 0 1.5em 1em;
+        font-size: 13px;
     }
 }
 

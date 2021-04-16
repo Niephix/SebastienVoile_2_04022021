@@ -415,6 +415,7 @@ aside
 {
     display: flex;
     justify-content: space-between;
+    align-content: center;
     align-items: center;
 }
     
@@ -465,8 +466,8 @@ aside
 
 .image2
 {
-    width: 310px;
-    height: 489px;
+    width: 320px;
+    height: 490px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }

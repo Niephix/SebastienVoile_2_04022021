@@ -1,8 +1,9 @@
-@media all and (min-width: 720px) and (max-width: 1250px)
+@media screen and (min-width: 680px) and (max-width: 1440px)
 {
     #main
     {
         margin: 0 auto;
+        max-width: 1300px; 
     }
 
     header
@@ -41,7 +42,7 @@
     .title_f
     {
         display: block;
-        padding: 0 1em 0 0;
+        /*padding: 0 1em 0 0;*/
     }
 
     .options_f
@@ -57,7 +58,7 @@
 
     .image
     {
-       max-width: 320px;
+        min-width: 310px;
     }
 
     aside
@@ -72,7 +73,7 @@
 
     .p1
     {
-        max-width: 320px;
+        width: 305px;
         height: 140px;
     }
 
@@ -103,17 +104,6 @@
         border-radius: 0;
     }
 
-    /*.image
-    {
-        max-width: 320px;
-    }*/
-
-
-    .aa1
-    {
-        flex-flow: row wrap;
-    }
-
     /*.vp, .fp, .if, .cal, .ndg, .pl
     {
         width: 300px;
@@ -121,46 +111,70 @@
 
     .vp
     {
-        order: 1;
-        margin-top: 2em;
-        margin-bottom: 2em;
-    }
-
-    .fpif
-    {
-        order: 2;
+        /*margin-bottom: 2em;*/
+        max-width: 220px;
     }
 
     .fp
     {
-        margin-bottom: 2em;
+        margin-bottom: 4.2em;
+        max-width: 200px;
     }
 
+    .if
+    {
+        max-width: 200px;
+    }
 
     .cal
     {
-        order: 1;
-        margin-top: 2em;
-        margin-bottom: 2em;
+        max-width: 220px;
     }
-
-    .ndgpl
-    {
-        order: 3;
-    }   
 
     .ndg
     {
-        margin-bottom: 2em;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        max-width: 200px;
     }
 
-
-
-    .image2, .image3, .image4, .image5
+    .pl
     {
-        min-width: 320px;
-        height: 150px;
+        padding-bottom: 0;
+        margin-top: 4em;
     }
+
+    .image2
+    {
+        max-width: 220px;
+    }
+    
+    .image3
+    {
+        max-width: 200px;
+        height: 188px;
+    }
+
+    .image4
+    {
+        max-width: 200px; 
+        height: 190px;
+    }
+
+    .image5
+    {
+        max-width: 200px;
+        height: 189px;
+    }
+
+    .pnc
+    {
+        font-size: 13px;
+        font-weight: 900;
+        padding: 1em;
+        margin: 0;
+    }
+
 
     footer
     {
@@ -178,5 +192,76 @@
         padding-right: 2em;
     }
 }
+
+@media screen and (min-width: 640px) and (max-width: 920px)
+{
+
+    #s3
+    {
+        margin: 0 3em 3em 3em;
+    }
+    
+    .image2
+    {
+        width: 200px;
+        height: 190px;
+    }
+
+    .fpif
+    {
+        order: 2;
+    }
+
+    .ndgpl
+    {
+        order: 3;
+    }
+
+    .vp
+    {
+        max-width: 200px;
+        z-index: 2;
+        position: absolute;
+        margin-top: -15.7em;
+        margin-bottom: 0;
+        height: 250px;
+    }
+
+    .cal
+    {
+        max-width: 200px;
+        margin-top: 19.7em;
+        height: 250px;
+    }
+
+    .pl
+    {
+        margin: 0;
+        height: 250px;
+    }
+
+    .fp
+    {
+        margin: 2.1em auto;
+    }
+
+    .ndg
+    {
+        margin: 2em auto;
+        height: 250px;
+    }
+
+    .pnc
+    {
+        padding: 1.5em 0 1.5em 1em;
+    }
+
+    #visites
+    {
+        padding: 0;
+    }
+}
+
+
 
     
