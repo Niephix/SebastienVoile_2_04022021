@@ -1,9 +1,9 @@
 @media all and (min-width: 320px) and (max-width:720px)
 {
-    #main
+    /*#main
     {
         max-width: 780px;
-    }
+    }*/
 
 /*Header's beginnig*/
     header
@@ -23,7 +23,7 @@
     nav
 {
     padding-top: 0;
-    min-width: 100px;
+    min-width: 40%;
 }
 
     nav ul
@@ -71,10 +71,6 @@
     {
         border-top: none; 
         padding-bottom: 1em;
-    }
-
-    nav a:active
-    {
         border-bottom: 2px solid #0065fc;
         padding-bottom: 1em;
     }
@@ -177,7 +173,7 @@
         flex-flow: column-reverse wrap;
     }
 
-    #ah1
+    .ah1
     {
         background-color: white;
         margin: 0;
@@ -188,7 +184,7 @@
     aside
     {
         margin: 0;
-        padding: 2em;
+        padding: 2em 1.2em 0 1.2em;
         border-radius: 0; 
         display: block;
     }
@@ -196,7 +192,7 @@
     .graphique
     {
         font-size: 20px;
-        width: 98%;
+        width: 100%;
     }
 
     .p1
@@ -207,7 +203,7 @@
     .nuitee2
     {
         font-size: 14px;
-        padding-bottom: 1em;
+        padding: inherit;
     }
 
     #logements
@@ -225,8 +221,7 @@
     {
         display: block;
         box-sizing: border-box;
-        padding: 0;
-        width: 330px;
+        width: 310px;
     }
 
     .image
@@ -257,7 +252,6 @@
 
     .image2, .image3, .image4, .image5
     {
-        width: 335px;
         height: 150px;
         box-sizing: content-box;
     }
@@ -265,7 +259,6 @@
     .vp, .cal, .fp, .if, .ndg, .pl
     {
         margin-bottom: 2em;
-        width: 335px;
         box-shadow: 0 0 10px #f2f2f2;
         box-sizing: content-box;
     }
@@ -304,6 +297,11 @@
 @media all and (max-width: 480px)
 {
 
+    .options_f
+    {
+        display: block;
+    }
+
     .n1
     {
         margin: 5em 3em 1em -5em;
@@ -313,11 +311,6 @@
     {
         margin: 5em 0 1em 4em;
     }
-
-    /*.graphique
-    {
-        width: auto;
-    }*/
 
     .p1
     {
@@ -334,42 +327,20 @@
         width: 100%;
     }
 
-    /*.image2, .image3, .image4, .image5
-    {
-        width: 330px;
-        height: 190px;
-    }
-
-    .fpif
-    {
-        order: 2;
-    }
-
-    .ndgpl
-    {
-        order: 3;
-        display: flex;
-    }
-    
-    .vp
-    {
-        order: 1;
-    }
-
-    .cal
-    {
-        order: 1;
-    }*/
-
     .pnc
     {
         padding: 1.5em 0 1.5em 1em;
         font-size: 13px;
     }
-}*/
+}
 
 @media screen and (max-width:350px)
 {
+    header
+    {
+        width: 245px;
+    }
+    
     .logo
     {
         padding: 2em 0 0 1.2em; 
@@ -384,6 +355,5 @@
     {
         width: 110px; 
     }
-
 }
     

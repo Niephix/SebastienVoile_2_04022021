@@ -1,0 +1,46 @@
+@media screen and (min-width: 1550px)
+{
+    #main
+    {
+        margin: 0 auto;
+        max-width: 2100px;
+    }
+
+    .vignettes
+    {
+        width: 370px;
+    }
+
+    .image
+    {
+        width: 97%;
+    }
+
+    .image1
+    {
+        width: 180px;
+        height: 170px;
+    }
+
+    .p1
+    {
+        width: 350px;
+        height: 170px;
+    }
+
+    .ap
+    {
+        padding: 1.5em 0 1.5em 1em;
+    }
+
+    .image2
+    {
+        width: 440px;
+    }
+
+    .image3, .image4, .image5
+    {
+        width: 390px;
+    }
+
+}
