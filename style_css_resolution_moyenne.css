@@ -1,4 +1,4 @@
-@media screen and (min-width: 680px) and (max-width: 1440px)
+@media screen and (min-width: 720px) and (max-width: 1200px)
 {
     #main
     {
@@ -17,15 +17,8 @@
 
     .signup
     {
-        color: #0065fc;
-        font-weight: bold;
-        margin: 1.8em 1.5em;
-        padding: 1.2em;
-        font-size: inherit;
-        border: none;
-        border-radius: 16px;
-        background-color: unset;
-        cursor: pointer;
+        
+        margin: 1.8em 0;   
     }
 
     #s1
@@ -39,9 +32,15 @@
         padding-bottom: 1em;
     }
 
+    input
+    {
+        width: 96%;
+    }
+
     .title_f
     {
         display: block;
+        padding: 0 1em 0 0;
     }
 
     .options_f
@@ -55,9 +54,15 @@
         margin: 0;
     }
 
+    .ah1
+    {
+        background-color: white;
+        border-radius: 0%;
+    }
+
     .image
     {
-        min-width: 310px;
+        width: 300px;
     }
 
     aside
@@ -65,21 +70,20 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
-        margin: 0; 
+        margin: 0 0 3em 0;
         box-sizing: content-box;
         border-radius: 0;
     }
 
     .p1
     {
-        width: 305px;
-        height: 140px;
+        width: 400px;
     }
 
     .image1
     {
-        min-width: 130px;
-        height: 140px;
+        width: 200px;
+        
     }
 
     .legendebis
@@ -97,68 +101,75 @@
         padding: 1em 0 0 1em;
     }
 
-    #ah1
+    #s3
     {
-        background-color: unset;
-        border-radius: 0;
+        margin: 0 3em 3em 3em;
+    }
+    
+    .fpif
+    {
+        order: 2;
     }
 
+    .ndgpl
+    {
+        order: 3;
+    }
 
     .vp
     {
-        max-width: 220px;
+        width: 260px;
+        z-index: 2;
+        position: absolute;
+        margin-top: -15.1em;
+        margin-bottom: 0;
+        height: 222px;  
     }
 
     .fp
     {
-        margin-bottom: 4.2em;
-        max-width: 200px;
+        margin-bottom: 1em;
+        width: 260px;
     }
 
     .if
     {
-        max-width: 200px;
+        width: 260px;
+        margin-top: 1em;
+        padding-bottom: 0;
     }
 
     .cal
     {
-        max-width: 220px;
+        width: 260px;
+        margin-top: 15em;
+        /*height: 250px;*/
     }
+
+    /*.pl
+    {
+        margin: 0;
+        height: 250px;
+    }*/
 
     .ndg
     {
-        margin-bottom: 0;
-        padding-bottom: 0;
-        max-width: 200px;
+        width: 260px;
+        margin-bottom: 1em;
     }
 
     .pl
     {
+        width: 260px;
         padding-bottom: 0;
-        margin-top: 4em;
     }
 
-    .image2
+    .image2, .image3, .image4, .image5
     {
-        max-width: 220px;
+        width: 100%;
+        height: 180px;
     }
     
-    .image3
-    {
-        max-width: 200px;
-        height: 188px;
-    }
-
-    .image4
-    {
-        max-width: 200px; 
-        height: 190px;
-    }
-
-    .image5
-    {
-        max-width: 200px;
-        height: 189px;
     }
 
     .pnc
@@ -168,7 +179,6 @@
         padding: 1em;
         margin: 0;
     }
-
 
     footer
     {
@@ -189,17 +199,12 @@
 
 @media screen and (min-width: 630px) and (max-width: 920px)
 {
-
     #s3
     {
         margin: 0 3em 3em 3em;
     }
     
-    .image2
-    {
-        width: 200px;
-        height: 190px;
-    }
+    
 
     .fpif
     {
@@ -213,12 +218,18 @@
 
     .vp
     {
-        max-width: 200px;
+        width: 200px;
         z-index: 2;
         position: absolute;
         margin-top: -15.7em;
         margin-bottom: 0;
         height: 250px;
+    }
+
+    .fp
+    {
+        margin: 2.1em auto;
+        width: 200px;
     }
 
     .cal
@@ -234,15 +245,29 @@
         height: 250px;
     }
 
-    .fp
+    .if
     {
-        margin: 2.1em auto;
+        width: 200px;
     }
 
     .ndg
     {
         margin: 2em auto;
         height: 250px;
+        width: 200px;
+    }
+
+    .pl
+    {
+        height: 250px;
+        width: 200px;
+        padding-bottom: 0;
+    }
+
+    .image2, .image3, .image4, .image5
+    {
+        width: 100%;
+        height: 180px;
     }
 
     .pnc
