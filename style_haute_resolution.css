@@ -1,4 +1,4 @@
-@media screen and (min-width: 1550px)
+@media screen and (min-width: 1530px)
 {
     #main
     {
@@ -33,14 +33,23 @@
         padding: 1.5em 0 1.5em 1em;
     }
 
-    .image2
+    .vp, .cal
     {
-        width: 440px;
+        width: 400px;
     }
 
-    .image3, .image4, .image5
+    .image2
+    {
+        width: 100%;
+    }
+
+    .fp, .if, .ndg, .pl
     {
         width: 390px;
     }
-
+    
+    .image3, .image4, .image5
+    {
+        width: 100%;
+    }
 }

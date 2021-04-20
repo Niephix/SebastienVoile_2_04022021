@@ -1,4 +1,4 @@
-@media screen and (min-width: 720px) and (max-width: 1200px)
+@media screen and (min-width: 630px) and (max-width: 1440px)
 {
     #main
     {
@@ -60,10 +60,10 @@
         border-radius: 0%;
     }
 
-    .image
+    /*.image
     {
         width: 300px;
-    }
+    }*/
 
     aside
     {
@@ -135,7 +135,7 @@
     .if
     {
         width: 260px;
-        margin-top: 1em;
+        /*margin-top: 1em;*/
         padding-bottom: 0;
     }
 
@@ -143,14 +143,7 @@
     {
         width: 260px;
         margin-top: 15em;
-        /*height: 250px;*/
     }
-
-    /*.pl
-    {
-        margin: 0;
-        height: 250px;
-    }*/
 
     .ndg
     {
@@ -169,16 +162,14 @@
         width: 100%;
         height: 180px;
     }
-    
-    }
 
-    .pnc
+    /*.pnc
     {
         font-size: 13px;
         font-weight: 900;
         padding: 1em;
         margin: 0;
-    }
+    }*/
 
     footer
     {
@@ -199,13 +190,21 @@
 
 @media screen and (min-width: 630px) and (max-width: 920px)
 {
+    .p1
+    {
+        width: 305px;
+    }
+
+    .image1
+    {
+        width: 130px;
+    }
+
     #s3
     {
         margin: 0 3em 3em 3em;
     }
     
-    
-
     .fpif
     {
         order: 2;
@@ -228,7 +227,7 @@
 
     .fp
     {
-        margin: 2.1em auto;
+        margin: 1.95em 0;
         width: 200px;
     }
 
@@ -247,6 +246,7 @@
 
     .if
     {
+        margin-top: 2em;
         width: 200px;
     }
 
@@ -270,15 +270,63 @@
         height: 180px;
     }
 
-    .pnc
-    {
-        padding: 1.5em 0 1.5em 1em;
-    }
+    
 
     #visites
     {
         padding: 0;
     }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px)
+{
+    .vignettes
+    {
+        width: 310px;
+    }
+
+    .vp
+    {
+        margin-top: -17em;
+        width: 295px;
+        padding-bottom: 1.2em;
+    }
+
+    .fp
+    {
+        width: 295px;
+    }
+
+    .cal
+    {
+        width: 295px;
+        margin-top: 16.8em;
+    }
+
+    .pl
+    {
+        width: 295px;
+    }
+
+    .if
+    {
+        width: 295px;
+    }
+
+    .ndg
+    {
+        width: 295px;
+    }
+
+    .pl
+    {
+        width: 295px;
+    }
+
+    /*.pnc
+    {
+        padding: 1.5em 0 1.5em 1em;
+    }*/
 }
 
 

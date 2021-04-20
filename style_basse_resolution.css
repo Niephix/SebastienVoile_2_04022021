@@ -1,9 +1,9 @@
 @media all and (min-width: 320px) and (max-width:720px)
 {
-    /*#main
+    #main
     {
-        max-width: 780px;
-    }*/
+        margin: 0 auto;
+    }
 
 /*Header's beginnig*/
     header
@@ -295,9 +295,8 @@
     }
 }
 
-@media all and (max-width: 480px)
+@media screen and (max-width: 480px)
 {
-
     .options_f
     {
         display: block;
@@ -333,6 +332,98 @@
         padding: 1.5em 0 1.5em 1em;
         font-size: 13px;
     }
+}
+
+@media screen and (min-width : 660px) and (max-width: 716px)
+{
+    .p1
+    {
+        width: auto;
+    }
+
+    .image1
+    {
+        width: 90%;
+    }
+
+    .aa1
+    {
+        display: flex;
+    }
+
+    .fpif
+    {
+        order: 2;
+    }
+
+    .ndgpl
+    {
+        order: 3;
+    }
+
+    .vp
+    {
+        width: 200px;
+        z-index: 2;
+        position: absolute;
+        margin-top: -18em;
+        margin-bottom: 0;
+        height: 240px;
+        padding: 0;
+    }
+
+    .fp
+    {
+        width: 200px;
+        margin-top: 1em;
+        padding-bottom: 0;
+    }
+
+    .cal
+    {
+        max-width: 200px;
+        margin-top: 17.7em;
+        height: 240px;
+    }
+
+    .pl
+    {
+        /*height: 250px;*/
+        padding-bottom: 0;
+    }
+
+    .if
+    {
+        margin-top: 2em;
+        width: 200px;
+        padding-bottom: 0;
+    }
+
+    .ndg
+    {
+        width: 200px;
+        padding-bottom: 0;
+        margin-top: 1em;
+    }
+
+    .pl
+    {
+        /*height: 250px;*/
+        width: 200px;
+        padding-bottom: 0;
+    }
+
+    .image2, .image3, .image4, .image5
+    {
+        width: 100%;
+        height: 180px;
+    }
+
+    .pnc
+    {
+        font-size: 13px;
+    }
+
 }
 
 @media screen and (max-width:350px)
