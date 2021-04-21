@@ -246,20 +246,6 @@
         width: 130px;
     }
 
-    /*#s3
-    {
-        margin: 0 3em 3em 3em;
-    }*/
-    
-    /*.fpif
-    {
-        order: 2;
-    }
-
-    .ndgpl
-    {
-        order: 3;
-    }*/
     .aa1
     {
         display: flex;
@@ -322,6 +308,25 @@
         padding: 0;
     }
 }
+
+@media screen and (min-width: 710px) and (max-width: 720px)
+{
+    .vp
+    {
+        margin-top: -15em;
+    }
+
+    footer ul
+    {
+        padding-left: 3em;
+    }
+
+    .title_ap
+    {
+        padding: 2em 0 0 3em;
+    }
+}
+
 
 
 
