@@ -295,23 +295,8 @@
     }
 }
 
-@media screen and (max-width: 480px)
+@media screen and (max-width : 670px)
 {
-    .options_f
-    {
-        display: block;
-    }
-
-    .n1
-    {
-        margin: 5em 3em 1em -5em;
-    }
-
-    .n2
-    {
-        margin: 5em 0 1em 4em;
-    }
-
     .p1
     {
         width: auto;
@@ -319,7 +304,7 @@
 
     .image
     {
-        height: 150px;
+        height: 250px;
     }
 
     .vignettes
@@ -327,26 +312,17 @@
         width: 100%;
     }
 
-    .pnc
-    {
-        padding: 1.5em 0 1.5em 1em;
-        font-size: 13px;
-    }
-}
-
-@media screen and (min-width : 660px) and (max-width: 716px)
-{
-    .p1
-    {
-        width: auto;
-    }
-
     .image1
     {
-        width: 90%;
+        max-width: 250px;
     }
 
-    .aa1
+    .image2, .image3, .image4, .image5
+    {
+        height: 250px;
+    }
+
+    /*.aa1
     {
         display: flex;
     }
@@ -388,7 +364,7 @@
 
     .pl
     {
-        /*height: 250px;*/
+        height: 250px;
         padding-bottom: 0;
     }
 
@@ -408,7 +384,7 @@
 
     .pl
     {
-        /*height: 250px;*/
+        height: 250px;
         width: 200px;
         padding-bottom: 0;
     }
@@ -422,20 +398,60 @@
     .pnc
     {
         font-size: 13px;
+    }*/
+
+}
+
+@media screen and (max-width: 480px)
+{
+    .options_f
+    {
+        display: block;
     }
 
+    .n1
+    {
+        margin: 5em 3em 1em -5em;
+    }
+
+    .n2
+    {
+        margin: 5em 0 1em 4em;
+    }
+
+    .p1
+    {
+        width: auto;
+    }
+
+    .image
+    {
+        height: 150px;
+    }
+
+    .vignettes
+    {
+        width: 100%;
+    }
+
+    .pnc
+    {
+        padding: 1.5em 0 1.5em 1em;
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width:350px)
 {
-    header
-    {
-        width: 245px;
-    }
-    
+
     .logo
     {
-        padding: 2em 0 0 1.2em; 
+        padding: 2em 0 0 0;
+    }
+
+    .signup
+    {
+        margin: 3em 0;
     }
 
     .n2

@@ -1,9 +1,8 @@
-@media screen and (min-width: 630px) and (max-width: 1440px)
+@media all and (min-width: 720px) and (max-width: 1440px)
 {
     #main
     {
         margin: 0 auto;
-        /*max-width: 1300px;*/ 
     }
 
     header
@@ -60,11 +59,6 @@
         border-radius: 0%;
     }
 
-    /*.image
-    {
-        width: 300px;
-    }*/
-
     aside
     {
         display: flex;
@@ -101,10 +95,10 @@
         padding: 1em 0 0 1em;
     }
 
-    #s3
+    /*#s3
     {
         margin: 0 3em 3em 3em;
-    }
+    }*/
     
     .fpif
     {
@@ -121,7 +115,7 @@
         width: 260px;
         z-index: 2;
         position: absolute;
-        margin-top: -15.1em;
+        margin-top: -13em;
         margin-bottom: 0;
         height: 222px;  
     }
@@ -135,7 +129,7 @@
     .if
     {
         width: 260px;
-        /*margin-top: 1em;*/
+        margin-top: 1em;
         padding-bottom: 0;
     }
 
@@ -163,13 +157,13 @@
         height: 180px;
     }
 
-    /*.pnc
+    .pnc
     {
         font-size: 13px;
         font-weight: 900;
         padding: 1em;
         margin: 0;
-    }*/
+    }
 
     footer
     {
@@ -188,96 +182,6 @@
     }
 }
 
-@media screen and (min-width: 630px) and (max-width: 920px)
-{
-    .p1
-    {
-        width: 305px;
-    }
-
-    .image1
-    {
-        width: 130px;
-    }
-
-    #s3
-    {
-        margin: 0 3em 3em 3em;
-    }
-    
-    .fpif
-    {
-        order: 2;
-    }
-
-    .ndgpl
-    {
-        order: 3;
-    }
-
-    .vp
-    {
-        width: 200px;
-        z-index: 2;
-        position: absolute;
-        margin-top: -15.7em;
-        margin-bottom: 0;
-        height: 250px;
-    }
-
-    .fp
-    {
-        margin: 1.95em 0;
-        width: 200px;
-    }
-
-    .cal
-    {
-        max-width: 200px;
-        margin-top: 19.7em;
-        height: 250px;
-    }
-
-    .pl
-    {
-        margin: 0;
-        height: 250px;
-    }
-
-    .if
-    {
-        margin-top: 2em;
-        width: 200px;
-    }
-
-    .ndg
-    {
-        margin: 2em auto;
-        height: 250px;
-        width: 200px;
-    }
-
-    .pl
-    {
-        height: 250px;
-        width: 200px;
-        padding-bottom: 0;
-    }
-
-    .image2, .image3, .image4, .image5
-    {
-        width: 100%;
-        height: 180px;
-    }
-
-    
-
-    #visites
-    {
-        padding: 0;
-    }
-}
-
 @media screen and (min-width: 1024px) and (max-width: 1280px)
 {
     .vignettes
@@ -287,9 +191,10 @@
 
     .vp
     {
-        margin-top: -17em;
+        margin-top: -15em;
         width: 295px;
         padding-bottom: 1.2em;
+        height: 210px;
     }
 
     .fp
@@ -300,7 +205,7 @@
     .cal
     {
         width: 295px;
-        margin-top: 16.8em;
+        margin-top: 15em;
     }
 
     .pl
@@ -328,6 +233,101 @@
         padding: 1.5em 0 1.5em 1em;
     }*/
 }
+
+@media screen and (min-width: 720px) and (max-width: 920px)
+{
+    .p1
+    {
+        width: 305px;
+    }
+
+    .image1
+    {
+        width: 130px;
+    }
+
+    /*#s3
+    {
+        margin: 0 3em 3em 3em;
+    }*/
+    
+    /*.fpif
+    {
+        order: 2;
+    }
+
+    .ndgpl
+    {
+        order: 3;
+    }*/
+    .aa1
+    {
+        display: flex;
+    }
+
+    .vp
+    {
+        width: 200px;
+        z-index: 2;
+        position: absolute;
+        margin-bottom: 0;
+    }
+
+    .fp
+    {
+        margin-top: 3em;
+        width: 200px;
+    }
+
+    .cal
+    {
+        max-width: 200px;
+        margin-top: 19em;
+    }
+
+    .if
+    {
+        margin-top: 2em;
+        width: 200px;
+    }
+
+    .ndg
+    {
+        margin-bottom: 2em;
+        margin-top: 3em;
+        width: 200px;
+    }
+
+    .pl
+    {
+        /*height: 250px;*/
+        width: 200px;
+        margin-top: 2em;
+        padding-bottom: 0;
+    }
+
+    .image2, .image3, .image4, .image5
+    {
+        width: 100%;
+        height: 180px;
+    }
+
+    .pnc
+    {
+        font-size: 12px;
+    }
+
+    #visites
+    {
+        padding: 0;
+    }
+}
+
+
+
+
+
+
 
 
 
