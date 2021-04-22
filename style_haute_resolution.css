@@ -3,7 +3,6 @@
     #main
     {
         margin: 0 auto;
-        max-width: 2100px;
     }
 
     .vignettes
@@ -53,3 +52,30 @@
         width: 100%;
     }
 }
+
+@media all and (min-width: 1580px) and (max-width:1680px)
+{
+    .vignettes
+    {
+        width: 290px;
+    }
+
+    .vp, .fp, .if, .cal, .ndg, .pl
+    {
+        width: 350px;
+    }
+}
+
+@media all and (min-width: 1680px) and (max-width:1870px)
+{
+    .vignettes
+    {
+        width: 330px;
+    }
+
+    .vp, .fp, .if, .cal, .ndg, .pl
+    {
+        width: 370px;
+    }
+}
+
