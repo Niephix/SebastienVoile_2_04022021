@@ -1,4 +1,4 @@
-@media all and (min-width: 720px) and (max-width: 1440px)
+@media all and (min-width: 720px) and (max-width: 1430px)
 {
     #main
     {
@@ -234,6 +234,31 @@
     }*/
 }
 
+@media screen and (min-width: 1280px) and (max-width: 1435px)
+{
+    .vignettes
+    {
+        width: 370px; 
+    }
+
+    .image
+    {
+        width: 98%
+    }
+
+    .vp, .fp, .if, .cal, .ndg, .pl
+    {
+        width: 350px;
+    }
+
+    .vp
+    {
+        margin-top: -15em;
+    }
+
+}
+
+
 @media screen and (min-width: 720px) and (max-width: 920px)
 {
     .p1
@@ -310,7 +335,7 @@
 }
 
 @media screen and (min-width: 710px) and (max-width: 720px)
-{
+{    
     .vp
     {
         margin-top: -15em;
