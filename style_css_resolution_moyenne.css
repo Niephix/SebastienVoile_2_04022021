@@ -258,6 +258,14 @@
 
 }
 
+@media screen and (min-width: 925px) and (max-width: 1025px)
+{
+    .vp
+    {
+        margin-top: -15em;
+    }
+}
+
 @media screen and (min-width: 720px) and (max-width: 920px)
 {
     .p1
