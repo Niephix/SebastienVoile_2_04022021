@@ -79,3 +79,21 @@
     }
 }
 
+@media screen and (min-width:2170px)
+{
+    .vignettes
+    {
+        width: 480px;
+    }
+
+    .image
+    {
+        width: 98%;
+    }
+
+    .image2, 
+    {
+        width: 560px;
+    }
+}
+
